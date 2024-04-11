@@ -931,12 +931,21 @@ video {
 .active{
     border-bottom: 2px solid #FF5454;
 }
+<<<<<<< HEAD
 
+=======
+#nik{
+    
+}
+>>>>>>> 8da7d461f4a92e89d8042dbe72ccdc16a3b13c6b
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8da7d461f4a92e89d8042dbe72ccdc16a3b13c6b
 @media (min-width: 640px) {
 
   .sm\:mx-0 {
@@ -1046,14 +1055,20 @@ video {
     line-height: 1.75rem;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8da7d461f4a92e89d8042dbe72ccdc16a3b13c6b
 @media (min-width: 768px) {
 
   .md\:flex {
     display: flex;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8da7d461f4a92e89d8042dbe72ccdc16a3b13c6b
 @media (min-width: 1280px) {
 
   .xl\:mb-\[70px\] {
@@ -1105,3 +1120,14 @@ video {
     font-size: 52px;
   }
 }
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+}
+
+=======
+}
+>>>>>>> e499a02258201495b2102af1a8e341c7c8553626
+>>>>>>> 0d8c057983a8dcbfc13bb9a6056154165f9bc33e
+>>>>>>> 8da7d461f4a92e89d8042dbe72ccdc16a3b13c6b
