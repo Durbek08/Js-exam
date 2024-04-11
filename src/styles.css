@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-=======
-
 .active{
     border-bottom: 2px solid #FF5454;
 }
->>>>>>> e499a02258201495b2102af1a8e341c7c8553626

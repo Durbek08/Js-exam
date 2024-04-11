@@ -928,17 +928,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-
 .active{
     border-bottom: 2px solid #FF5454;
 }
-
 
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
 }
-
 
 @media (min-width: 640px) {
 
@@ -1050,14 +1047,12 @@ video {
   }
 }
 
-
 @media (min-width: 768px) {
 
   .md\:flex {
     display: flex;
   }
 }
-
 
 @media (min-width: 1280px) {
 
@@ -1109,9 +1104,4 @@ video {
   .xl\:text-\[52px\] {
     font-size: 52px;
   }
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> e499a02258201495b2102af1a8e341c7c8553626
