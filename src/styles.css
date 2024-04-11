@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
 
 .active{
     border-bottom: 2px solid #FF5454;
 }
+<<<<<<< HEAD
 #nik{
     
 }
+=======
+>>>>>>> e499a02258201495b2102af1a8e341c7c8553626
+>>>>>>> 0d8c057983a8dcbfc13bb9a6056154165f9bc33e
