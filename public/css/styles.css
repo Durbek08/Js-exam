@@ -593,9 +593,6 @@ video {
 .h-\[60px\] {
   height: 60px;
 }
-.h-\[637px\] {
-  height: 637px;
-}
 .h-\[80px\] {
   height: 80px;
 }
@@ -826,6 +823,9 @@ video {
 .pb-5 {
   padding-bottom: 1.25rem;
 }
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .pb-7 {
   padding-bottom: 1.75rem;
 }
@@ -867,9 +867,6 @@ video {
 }
 .pt-\[70px\] {
   padding-top: 70px;
-}
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 .text-center {
   text-align: center;
@@ -1104,3 +1101,4 @@ video {
     font-size: 52px;
   }
 }
+
