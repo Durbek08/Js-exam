@@ -928,17 +928,15 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-
 .active{
     border-bottom: 2px solid #FF5454;
 }
-#nik{
-    
-}
+
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
 }
+
 @media (min-width: 640px) {
 
   .sm\:mx-0 {
@@ -1048,12 +1046,14 @@ video {
     line-height: 1.75rem;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:flex {
     display: flex;
   }
 }
+
 @media (min-width: 1280px) {
 
   .xl\:mb-\[70px\] {
@@ -1104,13 +1104,4 @@ video {
   .xl\:text-\[52px\] {
     font-size: 52px;
   }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-}
-
-=======
-}
->>>>>>> e499a02258201495b2102af1a8e341c7c8553626
->>>>>>> 0d8c057983a8dcbfc13bb9a6056154165f9bc33e
