@@ -875,6 +875,9 @@ video {
 .pt-\[70px\] {
   padding-top: 70px;
 }
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .text-center {
   text-align: center;
 }
@@ -957,6 +960,10 @@ video {
     display: flex;
   }
 
+  .sm\:h-\[637px\] {
+    height: 637px;
+  }
+
   .sm\:w-\[134px\] {
     width: 134px;
   }
@@ -1013,6 +1020,16 @@ video {
   .sm\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .sm\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .sm\:pt-52 {
