@@ -501,12 +501,6 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.absolute {
-  position: absolute;
-}
-.relative {
-  position: relative;
-}
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -542,14 +536,8 @@ video {
 .ml-auto {
   margin-left: auto;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
-}
-.hidden {
-  display: none;
 }
 .h-16 {
   height: 4rem;
@@ -559,12 +547,6 @@ video {
 }
 .h-\[637px\] {
   height: 637px;
-}
-.h-\[90px\] {
-  height: 90px;
-}
-.h-full {
-  height: 100%;
 }
 .w-\[134px\] {
   width: 134px;
@@ -587,9 +569,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-\[200px\] {
-  width: 200px;
-}
 .max-w-\[1386px\] {
   max-width: 1386px;
 }
@@ -610,9 +589,6 @@ video {
 }
 .max-w-\[427px\] {
   max-width: 427px;
-}
-.max-w-\[1880px\] {
-  max-width: 1880px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -652,9 +628,6 @@ video {
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-2 {
-  gap: 0.5rem;
 }
 .rounded {
   border-radius: 0.25rem;
@@ -706,10 +679,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .p-1 {
   padding: 0.25rem;
 }
@@ -744,10 +713,6 @@ video {
   padding-top: 13px;
   padding-bottom: 13px;
 }
-.py-\[15px\] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -768,9 +733,6 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pt-\[25px\] {
-  padding-top: 25px;
 }
 .text-center {
   text-align: center;
@@ -803,12 +765,6 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-\[15px\] {
-  font-size: 15px;
-}
-.text-\[25px\] {
-  font-size: 25px;
-}
 .font-bold {
   font-weight: 700;
 }
@@ -827,10 +783,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.hover\:text-\[\#FF6060\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 96 96 / var(--tw-text-opacity));
-}
 @media (min-width: 640px) {
 
   .sm\:mx-0 {
@@ -840,43 +792,5 @@ video {
 
   .sm\:flex {
     display: flex;
-  }
-
-  .sm\:pt-52 {
-    padding-top: 13rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-@media (min-width: 1280px) {
-
-  .xl\:flex {
-    display: flex;
-  }
-
-  .xl\:hidden {
-    display: none;
-  }
-
-  .xl\:h-\[550px\] {
-    height: 550px;
   }
 }
