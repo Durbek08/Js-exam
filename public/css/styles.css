@@ -932,14 +932,13 @@ video {
 .active{
     border-bottom: 2px solid #FF5454;
 }
-
-
+#nik{
+    
+}
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
 }
-
-
 @media (min-width: 640px) {
 
   .sm\:mx-0 {
@@ -1049,16 +1048,12 @@ video {
     line-height: 1.75rem;
   }
 }
-
-
 @media (min-width: 768px) {
 
   .md\:flex {
     display: flex;
   }
 }
-
-
 @media (min-width: 1280px) {
 
   .xl\:mb-\[70px\] {
