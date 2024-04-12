@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="">
+
+        <!-- HEADER-CONTAINER-top -->
+        <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px]">
+
+            <!-- LOCATION -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- LOCATION-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                    <path
+                        d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
+                        fill="#323232" />
+                </svg>
+                <!-- LOCATION-TEXT -->
+                <p class="">Standorte</p>
+            </div>
+
+            <!-- POISK -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- POISK-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                        stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <!-- POISK-TEXT -->
+                <p class="">Search</p>
+            </div>
+
+        </div>
+
+        <!-- HEADER-CONTAINER-bottom -->
+        <div class="bg-[#363636]">
+            <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+
+                <a href="./block.html" class=""><img src="./blockimg/logo (2).png" alt=""
+                        class=" object-cover w-[200px] h-[90px]"></a>
+                <ul class="xl:flex hidden gap-11 ">
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            verkaufen<svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Service<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Mehr<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+                </ul>
+                <button class="flex xl:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
+                        height="30px">
+                        <path
+                            d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                    </svg>
+                </button>
+            </div>
+    </header>
+
+    <!-- ICON -->
+    <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+        <img src="../img/mazda.img/64caef59dfb9808169a184c1_mazda (1).png" alt="" class="w-12 h-12   sm:w-20 sm:h-20">
+    </div>
+
+    <!-- hero -->
+
+    <section class="justify-center flex pb-2 sm:pb-16">
+        <img src="../img/mazda.img/Group 1000003300.png" alt="" class=" absolute xl:h-[550px]  object-cover mx-auto h-[440px] sm:h-full">
+        <div class="max-w-[1440px]  sm:h-[637px] pb-6 mx-auto relative">
+
+            <div class="mx-5  relative max-w-[953px] pt-10 sm:pt-[136px]">
+                <h1 class="font-bold text-4xl mb-1 sm:mb-2 text-white">The all-new</h1>
+                <h2 class="font-bold text-[40px] sm:text-[64px] text-white">Mazda CX-60</h2>
+                <p class="font-medium text-2xl sm:text-3xl text-white mb-5">Discover what luxury feels like with Mazda’s first plug-in hybrid SUV.</p>
+                <p class="font-medium text-2xl sm:text-3xl text-white mb-5">It's the most powerful car Mazda has ever produced.</p>
+                <div class="sm:flex gap-5 items-center">
+                    <button
+                        class="mb-2 sm:m-0 w-full sm:w-[264px] px-[34px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[24px]">Book a test drive</button>
+                    <button
+                        class="w-full sm:w-[209px] px-[37px] py-[14px] bg-[#DCDCDC] rounded text-[#5C5C5C] font-bold text-[18px] sm:text-[24px]">View deal</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sm:pb-16">
+        <div class="max-w-[1389px] mx-auto px-5">
+            <h2 class="font-bold text-[36px] text-center mb-3 sm:mb-14">The Mazda Range</h2>
+
+            <div class="max-w-[1389px] mx-auto flex justify-between flex-wrap mb-5 sm:mb-14">
+                <!-- CARD_1 -->
+                <div class="w-full sm:max-w-[265px] border-2 border-[#939393] rounded-lg px-3 mb-3 ">
+                    <div class="">
+                        <img src="./img/mg.car.1.png" alt="" class="w-[240px] h-[120px] mb-6 object-cover mx-auto">
+                        <p class="font-bold text[14px] text-center pb-7">2</p>
+                    </div>
+                </div>
+
+                <!-- CARD_2 -->
+                <div class="sm:max-w-[265px] w-full border-2 border-[#939393] rounded-lg px-3 mb-3 ">
+                    <div class="">
+                        <img src="./img/mg.card.2.png" alt="" class="w-[240px] h-[120px] mb-6 object-cover mx-auto">
+                        <p class="font-bold text[14px] text-center pb-7">3</p>
+                    </div>
+                </div>
+
+                <!-- CARD_3 -->
+                <div class="w-full sm:max-w-[265px] border-2 border-[#939393] rounded-lg px-3 mb-3 ">
+                    <div class="">
+                        <img src="./img/mg.car.3.png" alt="" class="w-[240px] h-[120px] mb-6 object-cover mx-auto">
+                        <p class="font-bold text[14px] text-center pb-7">4</p>
+                    </div>
+                </div>
+
+                <!-- CARD_4 -->
+                <div class="w-full sm:max-w-[265px] border-2 border-[#939393]  rounded-lg px-3 mb-3 ">
+                    <div class="">
+                        <img src="./img/mg.car.4.png" alt="" class="w-[240px] h-[120px] mb-6 object-cover mx-auto">
+                        <p class="font-bold text[14px] text-center pb-7">CX-3</p>
+                    </div>
+                </div>
+
+                <!-- CARD_5 -->
+                <div class="w-full sm:max-w-[265px] border-2 border-[#939393] rounded-lg px-3 mb-3 ">
+                    <div class="">
+                        <img src="./img/mg.car.5.png" alt="" class="w-[240px] h-[120px] mb-6 object-cover mx-auto">
+                        <p class="font-bold text[14px] text-center pb-7">CX-30</p>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Car-Card-1 -->
+             <div class="flex mx-auto border-2 border-[#939393] rounded-lg mb-5 sm:mb-[55px] bg-[#F4F4F4]">
+
+                <div
+                    class="xl:flex xl:flex-row-reverse max-w-[1174px] w-full gap-[143px]  justify-center pb-4 sm:pb-6 xl:py-11 items-center mx-auto">
+                    <div class="">
+                        <img src="./img/mg-yellow.png" alt=""
+                            class="xl:w-[666px] xl:h-[280px] rounded-lg object-cover w-full mx-auto">
+                    </div>
+                    <div class="max-w-[465px] mx-auto xl::mx-0 px-5 xl:p-0">
+                        <h2 class="font-bold text-[25px] sm:text-[40px] text-[#212121] mb-2 text-center xl:text-left">
+                            The Mazda MX-30 R-EV is coming soon.</h2>
+                        <p class="text-[15px] sm:text-[20px] font-medium mb-2 text-[#212121] text-center xl:text-left">
+                            A plug-in hybrid like no other, the Mazda MX-30 R-EV is designed to take your breath away - perfect for those who are looking to stand out from the crowd.</p>
+                       
+                        <button
+                            class=" mb-2 sm:m-0 w-full xl:w-[173px] px-[15px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[20px] ">Discover more</button>
+
+                            <button
+                            class=" mb-2 sm:mb-2 xl:m-0 w-full xl:w-[217px] px-[0px] py-[14px] bg-[#C3C3C3] rounded text-[#5C5C5C] font-bold text-[18px] sm:text-[20px] xl:ml-5">Keep me informed</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Car-Card-2 -->
+            <div class="flex mx-auto border-2 border-[#939393] rounded-lg mb-5 sm:mb-[55px] bg-[#F4F4F4]">
+
+                <div
+                    class="xl:flex xl:flex-row max-w-[1174px] w-full gap-[143px]  justify-center pb-4 sm:pb-6 xl:py-11 items-center mx-auto">
+                    <div class="">
+                        <img src="./img/mg-yellow.png" alt=""
+                            class="xl:w-[666px] rounded-lg object-cover xl:h-[292px] w-full mx-auto">
+                    </div>
+                    <div class="max-w-[414px] mx-auto xl::mx-0 px-5 xl:p-0">
+                        <p
+                        class="font-medium text-[15px] sm:text-[24px] mb-2 sm:mb-5 text-[#212121] text-center xl:text-left xl:mb-5">
+                        Introducing the new</p>
+
+                        <h2 class="font-semibold text-[20px] sm:text-[40px] text-[#212121] mb-2 text-center xl:text-left">
+                            Mazda2 Hybrid</h2>
+                        <p
+                            class="font-normal text-[15px] sm:text-[18px] mb-2 sm:mb-5 text-[#212121] text-center xl:text-left xl:mb-5">
+                            A car that is built to optimise performance and improve fuel economy. This stunning self-charging hybrid is available to test-drive, or pre-order now.</p>
+                            <button
+                            class=" mb-2 sm:m-0 w-full xl:w-[193px] px-[15px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[20px] ">Book a test drive</button>
+
+                            <button
+                            class=" mb-2 sm:mb-2 xl:m-0 w-full xl:w-[155px] px-[0px] py-[14px] bg-[#C3C3C3] rounded text-[#5C5C5C] font-bold text-[18px] sm:text-[20px] xl:ml-5">View deal</button>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Car-Card-3 -->
+             <div class="flex mx-auto border-2 border-[#939393] rounded-lg mb-5 sm:mb-[55px] bg-[#F4F4F4]">
+
+                <div
+                    class="xl:flex xl:flex-row-reverse max-w-[1174px] w-full gap-[143px]  justify-center pb-4 sm:pb-6 xl:py-11 items-center mx-auto">
+                    <div class="">
+                        <img src="./img/mg-yellow.png" alt=""
+                            class="xl:w-[666px] rounded-lg object-cover xl:h-[292px] w-full mx-auto">
+                    </div>
+                    <div class="max-w-[478px] mx-auto xl::mx-0 px-5 xl:p-0">
+                        <h3
+                            class="font-bold text-[25px] sm:text-[36px] mb-2 sm:mb-5 text-[#212121] text-center xl:text-left">
+                            Mazda Driving School offers</h3>
+                        <p class="text-[15px] sm:text-[20px] font-medium mb-2 text-[#212121] text-center xl:text-left">
+                            Choose Mazda for your students to get the best possible driving experience.</p>
+
+                            <p class="text-[15px] sm:text-[20px] font-medium mb-2 text-[#212121] text-center xl:text-left">
+                                Prices start from <b class="">£353</b> per month.*</p>
+
+                        <button
+                            class=" mb-2 sm:m-0 w-full xl:w-[173px] px-[20px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[20px]">Search offers</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Car-Card-4 -->
+            <div class="flex mx-auto border-2 border-[#939393] rounded-lg mb-5 sm:mb-[55px] bg-[#F4F4F4]">
+
+                <div
+                    class="xl:flex xl:flex-row max-w-[1174px] w-full gap-[143px]  justify-center pb-4 sm:pb-6 xl:py-11 items-center mx-auto">
+                    <div class="">
+                        <img src="./img/mg-yellow.png" alt=""
+                            class="xl:w-[666px] xl:h-[312px] rounded-lg object-cover w-full mx-auto">
+                    </div>
+                    <div class="max-w-[414px] mx-auto xl::mx-0 px-5 xl:p-0">
+                        <h2 class="font-medium text-[20px] sm:text-[32px] text-[#212121] mb-2 text-center xl:text-left">
+                            New </h2>
+                        <h3
+                            class="font-semibold text-[18px] sm:text-[40px] mb-2 sm:mb-3 text-[#212121] text-center xl:text-left">
+                            Mazda CX-30</h3>
+                        <p class="text-[15px] sm:text-[18px] font-semibold mb-2 text-[#212121] text-center xl:text-left">
+                            A compact SUV that’s built for advanture.
+                        </p>
+
+                        <button
+                            class=" mb-2  w-full xl:w-[183px] px-[25px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[20px] ">Find out more
+                        </button>
+
+                        <button
+                            class=" mb-2 sm:mb-2 xl:m-0 w-full xl:w-[155px] px-[20px] py-[14px] bg-[#C3C3C3] rounded text-[#5C5C5C] font-bold text-[18px] sm:text-[20px] xl:ml-5">View deals
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+           
+
+        </div>
+    </section>
+
+
+    <!-- Swipper -->
+    <div class="max-w-[1440px] mx-auto">
+        <h2 class="text-center mb-11 font-bold text-3xl pt-6 sm:text-4xl">Latest Mazda offers</h2>
+    </div>
+
+    <div
+        class=" max-w-[1440px] mx-auto flex gap-4 xl:flex-nowrap flex-wrap px-5 items-center justify-center xl:mb-11  relative">
+
+        <div
+            class="max-w-[1440px] mx-auto flex gap-4 xl:flex-nowrap flex-wrap  items-center justify-center xl:mb-11 overflow-hidden relative">
+            <!-- CARD-1 -->
+            <div class="swiper-slide ">
+                <div class="items-center justify-center max-w-[427px] border border-[#CFCFCF] rounded overflow-hidden">
+                    <img src="./blockimg/card.img/img (1).png" alt="" class="mb-[23px]">
+                    <div class=" flex justify-between mx-auto px-[27px] ">
+                        <p class="font-bold text-[20px]">Car Name</p>
+                        <p class="font-bold text-[20px]">8.930 €</p>
+                    </div>
+
+                    <div class=" mx-auto flex justify-between">
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[16px] text-[#555555] font-medium mb-[14px]">1.0 Edition</p>
+                            <p class="text-[16px] text-[#555555] font-medium">2016 • Benzin</p>
+                        </div>
+
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[12px] text-right mb-[28px]">MwSt. ausw.</p>
+                            <p class="flex gap-1 text-[#555555] font-medium">ab 133 € mtl.<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 1.99799C17.524 1.99799 22.002 6.47599 22.002 12C22.002 17.523 17.524 22 12 22C6.476 22.001 2 17.523 2 12C1.999 6.47599 6.476 1.99799 12 1.99799ZM12 3.49799C10.8758 3.48579 9.76036 3.69669 8.71822 4.11846C7.67607 4.54023 6.72793 5.16451 5.92866 5.95515C5.12939 6.7458 4.49487 7.68712 4.06182 8.72463C3.62877 9.76213 3.4058 10.8752 3.4058 11.9995C3.4058 13.1237 3.62877 14.2368 4.06182 15.2743C4.49487 16.3119 5.12939 17.2532 5.92866 18.0438C6.72793 18.8345 7.67607 19.4587 8.71822 19.8805C9.76036 20.3023 10.8758 20.5132 12 20.501C14.2388 20.4767 16.3776 19.5703 17.9521 17.9786C19.5267 16.3869 20.4098 14.2384 20.4098 11.9995C20.4098 9.76059 19.5267 7.61205 17.9521 6.02035C16.3776 4.42865 14.2388 3.52227 12 3.49799ZM11.996 10.498C12.1774 10.4978 12.3528 10.5633 12.4896 10.6824C12.6264 10.8016 12.7153 10.9663 12.74 11.146L12.747 11.248L12.751 16.75C12.7529 16.9414 12.6817 17.1262 12.5517 17.2668C12.4218 17.4073 12.2431 17.4928 12.0521 17.5059C11.8612 17.5189 11.6725 17.4585 11.5247 17.3369C11.3768 17.2153 11.2811 17.0419 11.257 16.852L11.251 16.751L11.247 11.249C11.247 11.0501 11.326 10.8593 11.4667 10.7187C11.6073 10.578 11.7981 10.499 11.997 10.499L11.996 10.498ZM12.001 7.00099C12.1348 6.99675 12.2681 7.01945 12.3929 7.06772C12.5177 7.11599 12.6316 7.18886 12.7277 7.282C12.8239 7.37514 12.9003 7.48664 12.9525 7.6099C13.0047 7.73315 13.0316 7.86563 13.0316 7.99949C13.0316 8.13334 13.0047 8.26582 12.9525 8.38908C12.9003 8.51233 12.8239 8.62383 12.7277 8.71697C12.6316 8.81011 12.5177 8.88298 12.3929 8.93125C12.2681 8.97953 12.1348 9.00222 12.001 8.99799C11.7417 8.98978 11.4957 8.88098 11.3151 8.69462C11.1346 8.50826 11.0336 8.25896 11.0336 7.99949C11.0336 7.74001 11.1346 7.49071 11.3151 7.30435C11.4957 7.11799 11.7417 7.00919 12.001 7.00099Z"
+                                        fill="#555555" />
+                                </svg></p>
+                        </div>
+                    </div>
+
+                    <div class="px-[27px] mx-auto flex flex-col">
+                        <p class="mb-[11px] text-[#555555] font-medium">22.178 km • Schaltgetriebe</p>
+                        <p class="text-[#555555] font-medium mb-[23px]">104g CO2/km (komb.) • 4.3 1/100 km (komb.)
+                        </p>
+                    </div>
+
+                    <div class="px-[27px] mx-auto">
+                        <button
+                            class="mb-[28px] w-full mx-auto rounded bg-[#AB2525] flex text-[20px] font-bold text-white items-center justify-center py-[13px]">Dieses
+                            Auto
+                            ansehen</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD-2 -->
+            <div class="swiper-slide">
+                <div class="items-center justify-center max-w-[427px] border border-[#CFCFCF] rounded">
+                    <img src="./blockimg/card.img/img (1).png" alt="" class="mb-[23px]">
+                    <div class=" flex justify-between mx-auto px-[27px] ">
+                        <p class="font-bold text-[20px]">Car Name</p>
+                        <p class="font-bold text-[20px]">8.930 €</p>
+                    </div>
+
+                    <div class=" mx-auto flex justify-between">
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[16px] text-[#555555] font-medium mb-[14px]">1.0 Edition</p>
+                            <p class="text-[16px] text-[#555555] font-medium">2016 • Benzin</p>
+                        </div>
+
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[12px] text-right mb-[28px]">MwSt. ausw.</p>
+                            <p class="flex gap-1 text-[#555555] font-medium">ab 133 € mtl.<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 1.99799C17.524 1.99799 22.002 6.47599 22.002 12C22.002 17.523 17.524 22 12 22C6.476 22.001 2 17.523 2 12C1.999 6.47599 6.476 1.99799 12 1.99799ZM12 3.49799C10.8758 3.48579 9.76036 3.69669 8.71822 4.11846C7.67607 4.54023 6.72793 5.16451 5.92866 5.95515C5.12939 6.7458 4.49487 7.68712 4.06182 8.72463C3.62877 9.76213 3.4058 10.8752 3.4058 11.9995C3.4058 13.1237 3.62877 14.2368 4.06182 15.2743C4.49487 16.3119 5.12939 17.2532 5.92866 18.0438C6.72793 18.8345 7.67607 19.4587 8.71822 19.8805C9.76036 20.3023 10.8758 20.5132 12 20.501C14.2388 20.4767 16.3776 19.5703 17.9521 17.9786C19.5267 16.3869 20.4098 14.2384 20.4098 11.9995C20.4098 9.76059 19.5267 7.61205 17.9521 6.02035C16.3776 4.42865 14.2388 3.52227 12 3.49799ZM11.996 10.498C12.1774 10.4978 12.3528 10.5633 12.4896 10.6824C12.6264 10.8016 12.7153 10.9663 12.74 11.146L12.747 11.248L12.751 16.75C12.7529 16.9414 12.6817 17.1262 12.5517 17.2668C12.4218 17.4073 12.2431 17.4928 12.0521 17.5059C11.8612 17.5189 11.6725 17.4585 11.5247 17.3369C11.3768 17.2153 11.2811 17.0419 11.257 16.852L11.251 16.751L11.247 11.249C11.247 11.0501 11.326 10.8593 11.4667 10.7187C11.6073 10.578 11.7981 10.499 11.997 10.499L11.996 10.498ZM12.001 7.00099C12.1348 6.99675 12.2681 7.01945 12.3929 7.06772C12.5177 7.11599 12.6316 7.18886 12.7277 7.282C12.8239 7.37514 12.9003 7.48664 12.9525 7.6099C13.0047 7.73315 13.0316 7.86563 13.0316 7.99949C13.0316 8.13334 13.0047 8.26582 12.9525 8.38908C12.9003 8.51233 12.8239 8.62383 12.7277 8.71697C12.6316 8.81011 12.5177 8.88298 12.3929 8.93125C12.2681 8.97953 12.1348 9.00222 12.001 8.99799C11.7417 8.98978 11.4957 8.88098 11.3151 8.69462C11.1346 8.50826 11.0336 8.25896 11.0336 7.99949C11.0336 7.74001 11.1346 7.49071 11.3151 7.30435C11.4957 7.11799 11.7417 7.00919 12.001 7.00099Z"
+                                        fill="#555555" />
+                                </svg></p>
+                        </div>
+                    </div>
+
+                    <div class="px-[27px] mx-auto flex flex-col">
+                        <p class="mb-[11px] text-[#555555] font-medium">22.178 km • Schaltgetriebe</p>
+                        <p class="text-[#555555] font-medium mb-[23px]">104g CO2/km (komb.) • 4.3 1/100 km (komb.)
+                        </p>
+                    </div>
+
+                    <div class="px-[27px] mx-auto">
+                        <button
+                            class="mb-[28px] w-full mx-auto rounded bg-[#AB2525] flex text-[20px] font-bold text-white items-center justify-center py-[13px]">Dieses
+                            Auto
+                            ansehen</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD-3 -->
+            <div class="swiper-slide">
+                <div class="items-center justify-center max-w-[427px] border border-[#CFCFCF] rounded">
+                    <img src="./blockimg/card.img/img (1).png" alt="" class="mb-[23px]">
+                    <div class=" flex justify-between mx-auto px-[27px] ">
+                        <p class="font-bold text-[20px]">Car Name</p>
+                        <p class="font-bold text-[20px]">8.930 €</p>
+                    </div>
+
+                    <div class=" mx-auto flex justify-between">
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[16px] text-[#555555] font-medium mb-[14px]">1.0 Edition</p>
+                            <p class="text-[16px] text-[#555555] font-medium">2016 • Benzin</p>
+                        </div>
+
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[12px] text-right mb-[28px]">MwSt. ausw.</p>
+                            <p class="flex gap-1 text-[#555555] font-medium">ab 133 € mtl.<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 1.99799C17.524 1.99799 22.002 6.47599 22.002 12C22.002 17.523 17.524 22 12 22C6.476 22.001 2 17.523 2 12C1.999 6.47599 6.476 1.99799 12 1.99799ZM12 3.49799C10.8758 3.48579 9.76036 3.69669 8.71822 4.11846C7.67607 4.54023 6.72793 5.16451 5.92866 5.95515C5.12939 6.7458 4.49487 7.68712 4.06182 8.72463C3.62877 9.76213 3.4058 10.8752 3.4058 11.9995C3.4058 13.1237 3.62877 14.2368 4.06182 15.2743C4.49487 16.3119 5.12939 17.2532 5.92866 18.0438C6.72793 18.8345 7.67607 19.4587 8.71822 19.8805C9.76036 20.3023 10.8758 20.5132 12 20.501C14.2388 20.4767 16.3776 19.5703 17.9521 17.9786C19.5267 16.3869 20.4098 14.2384 20.4098 11.9995C20.4098 9.76059 19.5267 7.61205 17.9521 6.02035C16.3776 4.42865 14.2388 3.52227 12 3.49799ZM11.996 10.498C12.1774 10.4978 12.3528 10.5633 12.4896 10.6824C12.6264 10.8016 12.7153 10.9663 12.74 11.146L12.747 11.248L12.751 16.75C12.7529 16.9414 12.6817 17.1262 12.5517 17.2668C12.4218 17.4073 12.2431 17.4928 12.0521 17.5059C11.8612 17.5189 11.6725 17.4585 11.5247 17.3369C11.3768 17.2153 11.2811 17.0419 11.257 16.852L11.251 16.751L11.247 11.249C11.247 11.0501 11.326 10.8593 11.4667 10.7187C11.6073 10.578 11.7981 10.499 11.997 10.499L11.996 10.498ZM12.001 7.00099C12.1348 6.99675 12.2681 7.01945 12.3929 7.06772C12.5177 7.11599 12.6316 7.18886 12.7277 7.282C12.8239 7.37514 12.9003 7.48664 12.9525 7.6099C13.0047 7.73315 13.0316 7.86563 13.0316 7.99949C13.0316 8.13334 13.0047 8.26582 12.9525 8.38908C12.9003 8.51233 12.8239 8.62383 12.7277 8.71697C12.6316 8.81011 12.5177 8.88298 12.3929 8.93125C12.2681 8.97953 12.1348 9.00222 12.001 8.99799C11.7417 8.98978 11.4957 8.88098 11.3151 8.69462C11.1346 8.50826 11.0336 8.25896 11.0336 7.99949C11.0336 7.74001 11.1346 7.49071 11.3151 7.30435C11.4957 7.11799 11.7417 7.00919 12.001 7.00099Z"
+                                        fill="#555555" />
+                                </svg></p>
+                        </div>
+                    </div>
+
+                    <div class="px-[27px] mx-auto flex flex-col">
+                        <p class="mb-[11px] text-[#555555] font-medium">22.178 km • Schaltgetriebe</p>
+                        <p class="text-[#555555] font-medium mb-[23px]">104g CO2/km (komb.) • 4.3 1/100 km (komb.)
+                        </p>
+                    </div>
+
+                    <div class="px-[27px] mx-auto">
+                        <button
+                            class="mb-[28px] w-full mx-auto rounded bg-[#AB2525] flex text-[20px] font-bold text-white items-center justify-center py-[13px]">Dieses
+                            Auto
+                            ansehen</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD-4 -->
+            <div class="swiper-slide ">
+                <div class="items-center justify-center max-w-[427px] border border-[#CFCFCF] rounded xl:mr-[-339px]">
+                    <img src="./blockimg/card.img/img (1).png" alt="" class="mb-[23px]">
+                    <div class=" flex justify-between mx-auto px-[27px] ">
+                        <p class="font-bold text-[20px]">Car Name</p>
+                        <p class="font-bold text-[20px]">8.930 €</p>
+                    </div>
+
+                    <div class=" mx-auto flex justify-between">
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[16px] text-[#555555] font-medium mb-[14px]">1.0 Edition</p>
+                            <p class="text-[16px] text-[#555555] font-medium">2016 • Benzin</p>
+                        </div>
+
+                        <div class="flex flex-col px-[27px]">
+                            <p class="text-[12px] text-right mb-[28px]">MwSt. ausw.</p>
+                            <p class="flex gap-1 text-[#555555] font-medium">ab 133 € mtl.<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 1.99799C17.524 1.99799 22.002 6.47599 22.002 12C22.002 17.523 17.524 22 12 22C6.476 22.001 2 17.523 2 12C1.999 6.47599 6.476 1.99799 12 1.99799ZM12 3.49799C10.8758 3.48579 9.76036 3.69669 8.71822 4.11846C7.67607 4.54023 6.72793 5.16451 5.92866 5.95515C5.12939 6.7458 4.49487 7.68712 4.06182 8.72463C3.62877 9.76213 3.4058 10.8752 3.4058 11.9995C3.4058 13.1237 3.62877 14.2368 4.06182 15.2743C4.49487 16.3119 5.12939 17.2532 5.92866 18.0438C6.72793 18.8345 7.67607 19.4587 8.71822 19.8805C9.76036 20.3023 10.8758 20.5132 12 20.501C14.2388 20.4767 16.3776 19.5703 17.9521 17.9786C19.5267 16.3869 20.4098 14.2384 20.4098 11.9995C20.4098 9.76059 19.5267 7.61205 17.9521 6.02035C16.3776 4.42865 14.2388 3.52227 12 3.49799ZM11.996 10.498C12.1774 10.4978 12.3528 10.5633 12.4896 10.6824C12.6264 10.8016 12.7153 10.9663 12.74 11.146L12.747 11.248L12.751 16.75C12.7529 16.9414 12.6817 17.1262 12.5517 17.2668C12.4218 17.4073 12.2431 17.4928 12.0521 17.5059C11.8612 17.5189 11.6725 17.4585 11.5247 17.3369C11.3768 17.2153 11.2811 17.0419 11.257 16.852L11.251 16.751L11.247 11.249C11.247 11.0501 11.326 10.8593 11.4667 10.7187C11.6073 10.578 11.7981 10.499 11.997 10.499L11.996 10.498ZM12.001 7.00099C12.1348 6.99675 12.2681 7.01945 12.3929 7.06772C12.5177 7.11599 12.6316 7.18886 12.7277 7.282C12.8239 7.37514 12.9003 7.48664 12.9525 7.6099C13.0047 7.73315 13.0316 7.86563 13.0316 7.99949C13.0316 8.13334 13.0047 8.26582 12.9525 8.38908C12.9003 8.51233 12.8239 8.62383 12.7277 8.71697C12.6316 8.81011 12.5177 8.88298 12.3929 8.93125C12.2681 8.97953 12.1348 9.00222 12.001 8.99799C11.7417 8.98978 11.4957 8.88098 11.3151 8.69462C11.1346 8.50826 11.0336 8.25896 11.0336 7.99949C11.0336 7.74001 11.1346 7.49071 11.3151 7.30435C11.4957 7.11799 11.7417 7.00919 12.001 7.00099Z"
+                                        fill="#555555" />
+                                </svg></p>
+                        </div>
+                    </div>
+
+                    <div class="px-[27px] mx-auto flex flex-col">
+                        <p class="mb-[11px] text-[#555555] font-medium">22.178 km • Schaltgetriebe</p>
+                        <p class="text-[#555555] font-medium mb-[23px]">104g CO2/km (komb.) • 4.3 1/100 km (komb.)
+                        </p>
+                    </div>
+
+                    <div class="px-[27px] mx-auto">
+                        <button
+                            class="mb-[28px] w-full mx-auto rounded bg-[#AB2525] flex text-[20px] font-bold text-white items-center justify-center py-[13px]">Dieses
+                            Auto
+                            ansehen</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="xl:flex absolute left-0 top-[240px] w-20 h-20 bg-white rounded-[50%] justify-center hidden items-center cursor-pointer
+        border-solid border-[1px] border-[#656565]">
+            <svg class="right-0 cursor-pointer  " xmlns="http://www.w3.org/2000/svg" width="42" height="42"
+                viewBox="0 0 42 42" fill="none">
+                <path
+                    d="M28.1058 4.29444C28.5979 4.7867 28.8744 5.45426 28.8744 6.15032C28.8744 6.84637 28.5979 7.51393 28.1058 8.00619L15.1121 20.9999L28.1058 33.9937C28.584 34.4888 28.8486 35.1519 28.8426 35.8401C28.8366 36.5284 28.5605 37.1868 28.0738 37.6735C27.5871 38.1602 26.9288 38.4362 26.2405 38.4422C25.5522 38.4482 24.8891 38.1836 24.3941 37.7054L9.54444 22.8558C9.05233 22.3636 8.77588 21.696 8.77588 20.9999C8.77588 20.3039 9.05233 19.6363 9.54444 19.1441L24.3941 4.29444C24.8863 3.80233 25.5539 3.52588 26.2499 3.52588C26.946 3.52588 27.6136 3.80233 28.1058 4.29444Z"
+                    fill="#616161" />
+            </svg>
+        </div>
+
+        <div class="xl:flex absolute right-[-20px] top-[240px] w-20 h-20 bg-white rounded-[50%] justify-center hidden items-center cursor-pointer
+        border-solid border-[1px] border-[#656565]">
+            <svg class="left-0 cursor-pointer " xmlns="http://www.w3.org/2000/svg" width="42" height="42"
+                viewBox="0 0 42 42" fill="none">
+                <path
+                    d="M13.8941 4.29444C13.402 4.7867 13.1256 5.45426 13.1256 6.15032C13.1256 6.84637 13.402 7.51393 13.8941 8.00619L26.8879 20.9999L13.8941 33.9937C13.416 34.4888 13.1514 35.1519 13.1574 35.8401C13.1633 36.5284 13.4394 37.1868 13.9261 37.6735C14.4128 38.1602 15.0712 38.4362 15.7594 38.4422C16.4477 38.4482 17.1108 38.1836 17.6059 37.7054L32.4555 22.8558C32.9476 22.3636 33.2241 21.696 33.2241 20.9999C33.2241 20.3039 32.9476 19.6363 32.4555 19.1441L17.6059 4.29444C17.1136 3.80233 16.4461 3.52588 15.75 3.52588C15.0539 3.52588 14.3864 3.80233 13.8941 4.29444Z"
+                    fill="#616161" />
+            </svg>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- Mehr Erfahren -->
+    <section class="pb-8 pt-8">
+        <h2 class="text-center mb-5 font-bold text-3xl pt-6 sm:text-4xl">More from Citroën</h2>
+
+        <div class="max-w-[1440px] mx-auto px-5 flex gap-2 flex-wrap xl:flex-nowrap">
+
+
+            <div class="w-full md:max-w-[356px] border-solid border-2 border-[#DBDBDB] rounded-lg mx-auto">
+                <img src="../img/mazda.img/mfa-4 (1).png" alt="" class="object-cover w-full mb-7">
+                <div class=" max-w-[305px] px-7">
+                    <h2 class="mb-6 font-semibold text-3xl ">Mazda Servicing</h2>
+                    <p class="mb-8 font-normal text-base">Genuine Mazda parts used
+                        Mazda trained technicians
+                        1 year guarantee on all parts and labour</p>
+                </div>
+            </div>
+
+            <div class="w-full md:max-w-[356px] border-solid border-2 border-[#DBDBDB] rounded-lg mx-auto">
+                <img src="../img/citron.img/citroen.tort.img/uch.png" alt="" class="object-cover w-full mb-7">
+                <div class=" max-w-[305px] px-7">
+                    <h2 class="mb-6 font-semibold text-3xl ">Mazda Motability</h2>
+                    <p class="mb-8 font-normal text-base">Mazda Motability ensure that you have a wide range of cars to choose from within your scheme.</p>
+                </div>
+            </div>
+
+            <div class="w-full md:max-w-[356px] border-solid border-2 border-[#DBDBDB] rounded-lg mx-auto">
+                <img src="../img/citron.img/citroen.tort.img/ikki.png" alt="" class="object-cover w-full mb-7">
+                <div class=" max-w-[305px] px-7">
+                    <h2 class="mb-6 font-semibold text-3xl ">Mazda Accessories</h2>
+                    <p class="mb-8 font-normal text-base">Personalise your Mazda with our range of accessories.</p>
+                </div>
+            </div>
+
+            <div class="w-full md:max-w-[356px] border-solid border-2 border-[#DBDBDB] rounded-lg mx-auto">
+                <img src="../img/citron.img/citroen.tort.img/tort.png" alt="" class="object-cover w-full mb-7">
+                <div class=" max-w-[305px] px-7">
+                    <h2 class="mb-6 font-semibold text-3xl ">Mazda Business Offers</h2>
+                    <p class="mb-8 font-normal text-base">We have a wide range of cars to suit your business needs, which are affordable through our flexible finance solutions.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Unsere MG Standorte -->
+
+    <section class="pb-16">
+        <div class="max-w-[1440px] mx-auto px-5">
+            <h2 class="font-bold text-3xl sm:text-4xl text-center mb-5 sm:mb-20">Find a Mazda branch</h2>
+
+           <div class=" gap-5 md:flex justify-between">
+
+            <ul class="flex flex-col gap-5 w-full md:w-[470px] mx-auto mb-5">
+
+                <!-- 1 -->
+                <li class=""><a href="#"
+                        class="flex items-center w-full md:max-w-[470px] justify-between py-4 px-7 border-solid border-2 border-[#D7D7D7] rounded-md font-normal text-2xl">
+                        Aberdeen <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M7.93955 2.45383C7.65834 2.73512 7.50037 3.11658 7.50037 3.51433C7.50037 3.91207 7.65834 4.29354 7.93955 4.57483L15.3645 11.9998L7.93955 19.4248C7.66631 19.7077 7.51512 20.0866 7.51853 20.4799C7.52195 20.8732 7.67971 21.2494 7.95782 21.5276C8.23593 21.8057 8.61215 21.9634 9.00544 21.9668C9.39874 21.9703 9.77764 21.8191 10.0605 21.5458L18.546 13.0603C18.8273 12.779 18.9852 12.3976 18.9852 11.9998C18.9852 11.6021 18.8273 11.2206 18.546 10.9393L10.0605 2.45383C9.77925 2.17262 9.39779 2.01465 9.00005 2.01465C8.6023 2.01465 8.22084 2.17262 7.93955 2.45383Z"
+                                fill="#8C8C8C" />
+                        </svg>
+                    </a></li>
+
+                    <!-- 2 -->
+                <li class=""><a href="#"
+                        class="flex items-center w-full md:max-w-[470px] justify-between py-4 px-7 border-solid border-2 border-[#D7D7D7] rounded-md font-normal text-2xl">
+                        Linwood <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M7.93955 2.45383C7.65834 2.73512 7.50037 3.11658 7.50037 3.51433C7.50037 3.91207 7.65834 4.29354 7.93955 4.57483L15.3645 11.9998L7.93955 19.4248C7.66631 19.7077 7.51512 20.0866 7.51853 20.4799C7.52195 20.8732 7.67971 21.2494 7.95782 21.5276C8.23593 21.8057 8.61215 21.9634 9.00544 21.9668C9.39874 21.9703 9.77764 21.8191 10.0605 21.5458L18.546 13.0603C18.8273 12.779 18.9852 12.3976 18.9852 11.9998C18.9852 11.6021 18.8273 11.2206 18.546 10.9393L10.0605 2.45383C9.77925 2.17262 9.39779 2.01465 9.00005 2.01465C8.6023 2.01465 8.22084 2.17262 7.93955 2.45383Z"
+                                fill="#8C8C8C" />
+                        </svg>
+                    </a></li>
+
+            
+            </ul>
+
+
+            <!-- UL-2 -->
+            <ul class="flex flex-col gap-5 w-full md:w-[470px] mx-auto mb-5">
+
+                <!-- 1 -->
+                <li class=""><a href="#"
+                        class="flex items-center w-full md:max-w-[470px] justify-between py-4 px-7 border-solid border-2 border-[#D7D7D7] rounded-md font-normal text-2xl">
+                        Glasgow South Street <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M7.93955 2.45383C7.65834 2.73512 7.50037 3.11658 7.50037 3.51433C7.50037 3.91207 7.65834 4.29354 7.93955 4.57483L15.3645 11.9998L7.93955 19.4248C7.66631 19.7077 7.51512 20.0866 7.51853 20.4799C7.52195 20.8732 7.67971 21.2494 7.95782 21.5276C8.23593 21.8057 8.61215 21.9634 9.00544 21.9668C9.39874 21.9703 9.77764 21.8191 10.0605 21.5458L18.546 13.0603C18.8273 12.779 18.9852 12.3976 18.9852 11.9998C18.9852 11.6021 18.8273 11.2206 18.546 10.9393L10.0605 2.45383C9.77925 2.17262 9.39779 2.01465 9.00005 2.01465C8.6023 2.01465 8.22084 2.17262 7.93955 2.45383Z"
+                                fill="#8C8C8C" />
+                        </svg>
+                    </a></li>
+
+                    <!-- 2 -->
+                <li class=""><a href="#"
+                        class="flex items-center w-full md:max-w-[470px] justify-between py-4 px-7 border-solid border-2 border-[#D7D7D7] rounded-md font-normal text-2xl">
+                        Stirling <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M7.93955 2.45383C7.65834 2.73512 7.50037 3.11658 7.50037 3.51433C7.50037 3.91207 7.65834 4.29354 7.93955 4.57483L15.3645 11.9998L7.93955 19.4248C7.66631 19.7077 7.51512 20.0866 7.51853 20.4799C7.52195 20.8732 7.67971 21.2494 7.95782 21.5276C8.23593 21.8057 8.61215 21.9634 9.00544 21.9668C9.39874 21.9703 9.77764 21.8191 10.0605 21.5458L18.546 13.0603C18.8273 12.779 18.9852 12.3976 18.9852 11.9998C18.9852 11.6021 18.8273 11.2206 18.546 10.9393L10.0605 2.45383C9.77925 2.17262 9.39779 2.01465 9.00005 2.01465C8.6023 2.01465 8.22084 2.17262 7.93955 2.45383Z"
+                                fill="#8C8C8C" />
+                        </svg>
+                    </a></li>
+            </ul>
+
+             <!-- UL-3 -->
+             <ul class="flex flex-col gap-5 w-full md:w-[470px] mx-auto">
+
+                <!-- 1 -->
+                <li class=""><a href="#"
+                        class="flex items-center w-full md:max-w-[470px] justify-between py-4 px-7 border-solid border-2 border-[#D7D7D7] rounded-md font-normal text-2xl">
+                        Kirkcaldy <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                                d="M7.93955 2.45383C7.65834 2.73512 7.50037 3.11658 7.50037 3.51433C7.50037 3.91207 7.65834 4.29354 7.93955 4.57483L15.3645 11.9998L7.93955 19.4248C7.66631 19.7077 7.51512 20.0866 7.51853 20.4799C7.52195 20.8732 7.67971 21.2494 7.95782 21.5276C8.23593 21.8057 8.61215 21.9634 9.00544 21.9668C9.39874 21.9703 9.77764 21.8191 10.0605 21.5458L18.546 13.0603C18.8273 12.779 18.9852 12.3976 18.9852 11.9998C18.9852 11.6021 18.8273 11.2206 18.546 10.9393L10.0605 2.45383C9.77925 2.17262 9.39779 2.01465 9.00005 2.01465C8.6023 2.01465 8.22084 2.17262 7.93955 2.45383Z"
+                                fill="#8C8C8C" />
+                        </svg>
+                    </a></li>
+
+                
+
+               
+            </ul>
+           </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="pb-7">   
+        <div class="max-w-[1434px] mx-auto sm:flex justify-between items-center border-t-[1px] border-t-[#010101] px-5">
+            <img src="./blockimg/logo (2).png" alt="" class="mx-auto sm:mx-0">
+            <ul class="flex gap-8 mx-auto sm:mx-0 justify-center mb-2">
+                <!-- TWITTER -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M29.9467 8.00004C28.92 8.46671 27.8133 8.77337 26.6667 8.92004C27.84 8.21337 28.7467 7.09337 29.1733 5.74671C28.0667 6.41337 26.84 6.88004 25.5467 7.14671C24.4933 6.00004 23.0133 5.33337 21.3333 5.33337C18.2 5.33337 15.64 7.89337 15.64 11.0534C15.64 11.5067 15.6933 11.9467 15.7867 12.36C11.04 12.12 6.81334 9.84004 4.00001 6.38671C3.50668 7.22671 3.22668 8.21337 3.22668 9.25337C3.22668 11.24 4.22668 13 5.77334 14C4.82668 14 3.94668 13.7334 3.17334 13.3334V13.3734C3.17334 16.1467 5.14668 18.4667 7.76001 18.9867C6.92098 19.2163 6.04014 19.2483 5.18668 19.08C5.54882 20.2167 6.25806 21.2113 7.2147 21.9239C8.17134 22.6366 9.32727 23.0316 10.52 23.0534C8.49818 24.654 5.99201 25.5191 3.41334 25.5067C2.96001 25.5067 2.50668 25.48 2.05334 25.4267C4.58668 27.0534 7.60001 28 10.8267 28C21.3333 28 27.1067 19.28 27.1067 11.72C27.1067 11.4667 27.1067 11.2267 27.0933 10.9734C28.2133 10.1734 29.1733 9.16004 29.9467 8.00004Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- FACEBOOK -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M18.6666 18H22L23.3333 12.6666H18.6666V9.99996C18.6666 8.62663 18.6666 7.33329 21.3333 7.33329H23.3333V2.85329C22.8986 2.79596 21.2573 2.66663 19.524 2.66663C15.904 2.66663 13.3333 4.87596 13.3333 8.93329V12.6666H9.33331V18H13.3333V29.3333H18.6666V18Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- LINKEDIN -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.572 11.9586H17.524V14.4253C18.2374 13.0066 20.0667 11.732 22.8147 11.732C28.0827 11.732 29.3334 14.556 29.3334 19.7373V29.3333H24V20.9173C24 17.9666 23.2867 16.3026 21.4707 16.3026C18.952 16.3026 17.9054 18.096 17.9054 20.916V29.3333H12.572V11.9586ZM3.42669 29.1066H8.76002V11.732H3.42669V29.1066ZM9.52402 6.06663C9.52422 6.51366 9.43556 6.95627 9.2632 7.36874C9.09084 7.78121 8.83822 8.15531 8.52002 8.46929C7.87522 9.11012 7.00243 9.46883 6.09335 9.46663C5.18587 9.46602 4.3151 9.10822 3.66935 8.47063C3.3523 8.15558 3.10053 7.78106 2.92848 7.36853C2.75642 6.95601 2.66746 6.51359 2.66669 6.06663C2.66669 5.16396 3.02669 4.29996 3.67069 3.66263C4.31587 3.02417 5.18701 2.66623 6.09469 2.66663C7.00402 2.66663 7.87602 3.02529 8.52002 3.66263C9.16269 4.29996 9.52402 5.16396 9.52402 6.06663Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- INSTAGRAM -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M16 11.34C13.42 11.34 11.34 13.44 11.34 16C11.34 18.56 13.44 20.66 16 20.66C18.56 20.66 20.66 18.56 20.66 16C20.66 13.44 18.56 11.34 16 11.34ZM30 16C30 14.06 30 12.16 29.9 10.22C29.8 7.98 29.28 5.98 27.64 4.36C26 2.72 24.02 2.2 21.78 2.1C19.84 2 17.94 2 16 2C14.06 2 12.16 2 10.22 2.1C7.98 2.2 5.98 2.72 4.36 4.36C2.72 6 2.2 7.98 2.1 10.22C2 12.16 2 14.06 2 16C2 17.94 2 19.84 2.1 21.78C2.2 24.02 2.72 26.02 4.36 27.64C6 29.28 7.98 29.8 10.22 29.9C12.16 30 14.06 30 16 30C17.94 30 19.84 30 21.78 29.9C24.02 29.8 26.02 29.28 27.64 27.64C29.28 26 29.8 24.02 29.9 21.78C30.02 19.86 30 17.94 30 16ZM16 23.18C12.02 23.18 8.82 19.98 8.82 16C8.82 12.02 12.02 8.82 16 8.82C19.98 8.82 23.18 12.02 23.18 16C23.18 19.98 19.98 23.18 16 23.18ZM23.48 10.2C22.56 10.2 21.8 9.46 21.8 8.52C21.8 7.58 22.54 6.84 23.48 6.84C24.42 6.84 25.16 7.58 25.16 8.52C25.1651 8.73907 25.1251 8.95685 25.0425 9.15983C24.9599 9.36281 24.8365 9.54667 24.68 9.7C24.5267 9.85655 24.3428 9.97993 24.1398 10.0625C23.9368 10.1451 23.7191 10.1851 23.5 10.18L23.48 10.2Z"
+                                fill="#212121" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <div class="sm:flex justify-between max-w-[1434px] mx-auto px-5">
+            <p class="text-[#212121] font-medium text-[16px] ml-7 text-center">© 2023 Auto Schrader</p>
+            <p class="text-[#212121] font-medium text-[16px] text-center">Advanced Automotive Dealer Websites by Dealer
+                Inspire</p>
+            <ul class="flex gap-5 sm:mx-0 mx-auto justify-center">
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap</li>
+                <li class="text-[#212121] font-medium text-[16px]">Privacy Policy</li>
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap XML</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
