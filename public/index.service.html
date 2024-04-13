@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="">
+
+        <!-- HEADER-CONTAINER-top -->
+        <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px]">
+
+            <!-- LOCATION -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- LOCATION-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                    <path
+                        d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
+                        fill="#323232" />
+                </svg>
+                <!-- LOCATION-TEXT -->
+                <p class="">Standorte</p>
+            </div>
+
+            <!-- POISK -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- POISK-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                        stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <!-- POISK-TEXT -->
+                <p class="">Search</p>
+            </div>
+
+        </div>
+
+        <!-- HEADER-CONTAINER-bottom -->
+        <div class="bg-[#363636]">
+            <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+
+                <a href="./block.html" class=""><img src="./blockimg/logo (2).png" alt=""
+                        class=" object-cover w-[200px] h-[90px]"></a>
+                <ul class="xl:flex hidden gap-11 ">
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            verkaufen<svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Service<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Mehr<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+                </ul>
+                <button class="flex xl:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
+                        height="30px">
+                        <path
+                            d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                    </svg>
+                </button>
+            </div>
+    </header>
+
+    <!-- ICON -->
+    <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+        <h2 class="font-semibold text-3xl py-5">Servicing</h2>
+    </div>
+
+    <!-- hero -->
+
+    <section class="justify-center flex pb-2 sm:pb-16">
+        <img src="../img/servise.img/Group 1000003303.png" alt=""
+            class=" absolute xl:h-[550px]  object-cover mx-auto h-[440px] sm:h-full">
+        <div class="max-w-[1440px]  sm:h-[637px] pb-6 mx-auto relative">
+
+            <div class="mx-5  relative max-w-[953px] pt-10 sm:pt-[136px]">
+                <h2 class="font-bold text-[25px] sm:text-[64px] text-white mb-[67px]">Buchen Sie Ihren Service oder
+                    Hauptuntersuchung online.</h2>
+                <div class=" sm:flex gap-5 items-center justify-center">
+                    <button
+                        class="mb-2 sm:m-0 w-full sm:w-[497px] px-[34px] py-[14px] bg-[#EE6058] rounded text-white font-bold text-[18px] sm:text-[24px]">Service-Termin
+                        buchen</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pb-[50px]">
+        <div class="max-w-[1078px] mx-auto px-5 ">
+            <h2 class="font-bold text-4xl mb-16 text-center">WARTUNG EINFACH GEMACHT.</h2>
+            <p class=" font-medium text-[20px] text-center mb-20 mx-auto">Es ist schnell und einfach, Ihren Wagen für
+                einen Service oder die Hauptuntersuchung Auto
+                Schrader zu buchen.
+                Buchen Sie online, genehmigen Sie die Arbeiten und zahlen Sie.
+            </p>
+
+            <div class=" flex flex-wrap justify-center gap-7">
+                <!-- CARD-1 -->
+                <div
+                    class="sm:max-w-[300px] w-full justify-center border-solid border-2 border-[#D3D3D3] bg-[#FAFAFA] rounded-lg">
+                    <img src="../img/servise.img/tel/bir.png" alt="" class="mb-1 object-cover mx-auto ">
+                    <p class="sm:w-[300px] text-center mb-4 font-normal text-[18px] mx-auto">Book your service or MOT
+                        <br>
+                        online.
+                    </p>
+                </div>
+
+                <!-- CARD-2 -->
+                <div
+                    class="w-full sm:max-w-[300px] justify-center border-solid border-2 border-[#D3D3D3] bg-[#FAFAFA] rounded-lg">
+                    <img src="../img/servise.img/tel/ikki.png" alt="" class=" mb-1 object-cover mx-auto ">
+                    <p class="text-center mb-4 font-normal text-[18px] sm:w-[300px] mx-auto">Check in up to 48 hours
+                        <br>
+                        before your appointment. <br>
+                        online.
+                    </p>
+                </div>
+
+                <!-- CARD-3 -->
+                <div
+                    class="w-full sm:max-w-[300px] justify-center border-solid border-2 border-[#D3D3D3] bg-[#FAFAFA] rounded-lg">
+                    <img src="../img/servise.img/tel/uch.png" alt="" class="mb-1 object-cover mx-auto ">
+                    <p class="text-center mb-4 font-normal text-[18px] sm:w-[300px] mx-auto">Watch your vehicle health
+                        check <br>and approve work online.<br>
+                        online.</p>
+                </div>
+
+                <!-- CARD-4 -->
+                <div
+                    class="w-full sm:max-w-[300px] justify-center border-solid border-2 border-[#D3D3D3] bg-[#FAFAFA] rounded-lg">
+                    <img src="../img/servise.img/tel/tort.png" alt="" class="mb-1 object-cover mx-auto ">
+                    <p class="text-center mb-4 font-normal text-[18px] sm:w-[300px] mx-auto">Electronic invoicing <br>
+                        and payment.</p>
+                </div>
+
+                <!-- CARD-5 -->
+                <div
+                    class="w-full sm:max-w-[300px] justify-center border-solid border-2 border-[#D3D3D3] bg-[#FAFAFA] rounded-lg">
+                    <img src="../img/servise.img/tel/besh.png" alt="" class="mb-1 object-cover mx-auto ">
+                    <p class="text-center mb-4 font-normal text-[18px] sm:w-[300px] mx-auto">Your receipt emailed direct
+                        <br>
+                        to your inbox.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pb-16">
+        <div class="max-w-[1381px] mx-auto px-5">
+            <h2 class="text-4xl text-center mb-[50px] font-bold">Welchen Service bieten wir an?</h2>
+            <p class="max-w-[820px] font-normal text-[20px] mx-auto mb-[24px]">Bei Auto Schrader bieten wir eine
+                Vielzahl von Dienstleistungen für jedes Fahrzeug an.
+                Finden Sie heraus, welche Dienstleistung am besten zu Ihrem Fahrzeug passt.</p>
+
+            <div class="md:flex gap-[25px]">
+
+                <div
+                    class="max-w-[678px] bg-[#2F2F2F] rounded-lg items-center justify-center pb-[52px] mb-5 md:mb-0 relative">
+                    <h2
+                        class="font-bold text-2xl top-[100px] sm:text-[30px] lg:text-[40px] text-center text-white absolute  sm:top-[130px] left-0 right-0 ">
+                        HERSTELLER SERVICE</h2>
+                    <img src="../img/servise.img/ikki/bir.png" alt="" class="w-full mb-[54px] rounded-lg">
+
+                    <p class="text-white flex text-[16px] max-w-[556px] mx-auto gap-4 px-5 mb-[10px]">Wir
+                        bieten einen vollständig genehmigten Herstellerservice an, um sicherzustellen, dass Ihr Auto
+                        qualitativ hochwertige Pflege und erstklassige Reparaturen erhält.</p>
+
+                    <p class="text-white flex text-16px max-w-[556px] mx-auto gap-4 mb-[26px] px-5">Wir
+                        verwenden ausschließlich echte Hersteller-Ersatzteile und behalten Ihre Service-Historie bei, um
+                        den
+                        Wert und den Zustand Ihres Autos zu erhalten.</p>
+
+                    <div class="px-5">
+                        <button
+                            class="py-3 w-full sm:max-w-[191px] justify-center text-white bg-[#EE6058] px-7 flex mx-auto rounded-lg font-bold text-[18px]">Mehr
+                            Erfahren</button>
+                    </div>
+
+                </div>
+
+
+                <div class="max-w-[678px] bg-[#2F2F2F] rounded-lg items-center justify-center pb-[52px] relative">
+                    <h2
+                        class="font-bold text-2xl top-[100px] sm:text-[30px] lg:text-[40px] text-center text-white absolute  sm:top-[130px] left-0 right-0 ">
+                        1PREIS® SERVICE</h2>
+                    <img src="../img/servise.img/ikki/img (6).png" alt="" class="w-full mb-[54px] rounded-lg ">
+
+                    <p class="text-white flex text-[16px] max-w-[556px] mx-auto gap-4 px-5 mb-[10px]">1PREIS® Kleine
+                        Inspektion <br>
+                        Ein Standard-Service wird alle 12 Monate empfohlen.
+                    </p>
+
+                    <p class="text-white flex text-16px max-w-[556px] mx-auto gap-4 mb-[50px] px-5">1PREIS® Große
+                        Inspektion <br>
+                        Ein Hauptservice wird alle 24 Monate empfohlen.</p>
+
+                    <div class="px-5">
+                        <button
+                            class="py-3 w-full sm:max-w-[191px] justify-center text-white bg-[#EE6058] px-7 flex mx-auto rounded-lg font-bold text-[18px]">Mehr
+                            Erfahren</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- WHY CHOOSE ARNOLD -->
+    <section class="mb-[30px] sm:pt-[65px] pb-[20px] sm:pb-[50px]">
+        <div class="max-w-[1233px] mx-auto px-5">
+
+            <img src="blockimg/card.img/image 24.png" alt="" class="mb-[20px] sm:mb-[105px]">
+            <img src="./blockimg/card.img/image 25 (1).png" alt="" class="mx-auto mb-[20px] sm:mb-[196px]">
+
+
+
+        </div>
+    </section>
+
+
+
+    <section class="pb-[50px]">
+        <div class="max-w-[1440px] mx-auto  xl:flex gap-5  justify-between  px-5">
+            <ul class="md:w-[466px] justify-between flex flex-col gap-5 mx-auto mb-5 ">
+                <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] h-20 w-full flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/bir.png" alt="" class="pl-3 sm:pl-[39px] py-4">Wartung
+                </li>
+
+                <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] h-20 w-full flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/ikki.png" alt="" class="pl-3 sm:pl-[39px] py-4">Karosseriewerkstatt</li>
+            </ul>
+
+
+
+            <ul class="md:w-[466px] justify-between flex flex-col gap-5 mx-auto mb-5 ">
+                <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] h-20 w-full flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/uch.png" alt="" class="pl-3 sm:pl-[39px] py-4">Hauptuntersuchung</li>
+
+                <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] h-20 w-full flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/tort.png" alt="" class="pl-3 sm:pl-[39px] py-4">Zubehör</li>
+            </ul>
+
+
+
+            <ul class="md:w-[466px] justify-between flex flex-col gap-5 mx-auto mb-5 ">
+
+                <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] w-full h-20 flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/besh.png" alt="" class="pl-3 sm:pl-[39px] py-4">Wartungspläne</li>
+                    <li
+                    class="border-solid rounded-lg cursor-pointer border-2 border-[#D0D0D0] w-full h-20 flex gap-[32px] items-center text-[18px] sm:text-[24px] font-medium">
+                    <img src="./blockimg/wortung/olt.png" alt="" class="pl-3 sm:pl-[39px] py-4">Ersatzteile</li>
+            </ul>
+        </div>
+    </section>
+
+
+<style>
+    .bacg{
+        background-image: url(../img/servise.img/bg.png);
+    }
+</style>
+
+    <section class="pt-14 pb-14 ">
+        <div class="bacg max-w-[1440px] h-[516px] mx-auto px-5 bg-cover relative overflow-hidden">
+            <div class="max-w-[540px] pt-[103px] pl-2 sm:pl-[128px] relative">
+                <h2 class="font-semibold  text-4xl mb-9 relative">Eine Filiale finden</h2>
+                <p class="text-[18px] sm:text-2xl font-medium mb-9 relative">Auto Schrader verfügt über 9 Servicezentren 
+                    in Nordrhein-Westfalen und Niedersachsen.</p>
+                    <button class="w-56 rounded-md bg-[#EE6058] py-3 sm:py-5 justify-center items-center font-bold text-2xl text-white">Filiale finden</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+     <!-- FOOTER -->
+     <footer class="pb-7">   
+        <div class="max-w-[1434px] mx-auto sm:flex justify-between items-center border-t-[1px] border-t-[#010101] px-5">
+            <img src="./blockimg/logo (2).png" alt="" class="mx-auto sm:mx-0">
+            <ul class="flex gap-8 mx-auto sm:mx-0 justify-center mb-2">
+                <!-- TWITTER -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M29.9467 8.00004C28.92 8.46671 27.8133 8.77337 26.6667 8.92004C27.84 8.21337 28.7467 7.09337 29.1733 5.74671C28.0667 6.41337 26.84 6.88004 25.5467 7.14671C24.4933 6.00004 23.0133 5.33337 21.3333 5.33337C18.2 5.33337 15.64 7.89337 15.64 11.0534C15.64 11.5067 15.6933 11.9467 15.7867 12.36C11.04 12.12 6.81334 9.84004 4.00001 6.38671C3.50668 7.22671 3.22668 8.21337 3.22668 9.25337C3.22668 11.24 4.22668 13 5.77334 14C4.82668 14 3.94668 13.7334 3.17334 13.3334V13.3734C3.17334 16.1467 5.14668 18.4667 7.76001 18.9867C6.92098 19.2163 6.04014 19.2483 5.18668 19.08C5.54882 20.2167 6.25806 21.2113 7.2147 21.9239C8.17134 22.6366 9.32727 23.0316 10.52 23.0534C8.49818 24.654 5.99201 25.5191 3.41334 25.5067C2.96001 25.5067 2.50668 25.48 2.05334 25.4267C4.58668 27.0534 7.60001 28 10.8267 28C21.3333 28 27.1067 19.28 27.1067 11.72C27.1067 11.4667 27.1067 11.2267 27.0933 10.9734C28.2133 10.1734 29.1733 9.16004 29.9467 8.00004Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- FACEBOOK -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M18.6666 18H22L23.3333 12.6666H18.6666V9.99996C18.6666 8.62663 18.6666 7.33329 21.3333 7.33329H23.3333V2.85329C22.8986 2.79596 21.2573 2.66663 19.524 2.66663C15.904 2.66663 13.3333 4.87596 13.3333 8.93329V12.6666H9.33331V18H13.3333V29.3333H18.6666V18Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- LINKEDIN -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.572 11.9586H17.524V14.4253C18.2374 13.0066 20.0667 11.732 22.8147 11.732C28.0827 11.732 29.3334 14.556 29.3334 19.7373V29.3333H24V20.9173C24 17.9666 23.2867 16.3026 21.4707 16.3026C18.952 16.3026 17.9054 18.096 17.9054 20.916V29.3333H12.572V11.9586ZM3.42669 29.1066H8.76002V11.732H3.42669V29.1066ZM9.52402 6.06663C9.52422 6.51366 9.43556 6.95627 9.2632 7.36874C9.09084 7.78121 8.83822 8.15531 8.52002 8.46929C7.87522 9.11012 7.00243 9.46883 6.09335 9.46663C5.18587 9.46602 4.3151 9.10822 3.66935 8.47063C3.3523 8.15558 3.10053 7.78106 2.92848 7.36853C2.75642 6.95601 2.66746 6.51359 2.66669 6.06663C2.66669 5.16396 3.02669 4.29996 3.67069 3.66263C4.31587 3.02417 5.18701 2.66623 6.09469 2.66663C7.00402 2.66663 7.87602 3.02529 8.52002 3.66263C9.16269 4.29996 9.52402 5.16396 9.52402 6.06663Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- INSTAGRAM -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M16 11.34C13.42 11.34 11.34 13.44 11.34 16C11.34 18.56 13.44 20.66 16 20.66C18.56 20.66 20.66 18.56 20.66 16C20.66 13.44 18.56 11.34 16 11.34ZM30 16C30 14.06 30 12.16 29.9 10.22C29.8 7.98 29.28 5.98 27.64 4.36C26 2.72 24.02 2.2 21.78 2.1C19.84 2 17.94 2 16 2C14.06 2 12.16 2 10.22 2.1C7.98 2.2 5.98 2.72 4.36 4.36C2.72 6 2.2 7.98 2.1 10.22C2 12.16 2 14.06 2 16C2 17.94 2 19.84 2.1 21.78C2.2 24.02 2.72 26.02 4.36 27.64C6 29.28 7.98 29.8 10.22 29.9C12.16 30 14.06 30 16 30C17.94 30 19.84 30 21.78 29.9C24.02 29.8 26.02 29.28 27.64 27.64C29.28 26 29.8 24.02 29.9 21.78C30.02 19.86 30 17.94 30 16ZM16 23.18C12.02 23.18 8.82 19.98 8.82 16C8.82 12.02 12.02 8.82 16 8.82C19.98 8.82 23.18 12.02 23.18 16C23.18 19.98 19.98 23.18 16 23.18ZM23.48 10.2C22.56 10.2 21.8 9.46 21.8 8.52C21.8 7.58 22.54 6.84 23.48 6.84C24.42 6.84 25.16 7.58 25.16 8.52C25.1651 8.73907 25.1251 8.95685 25.0425 9.15983C24.9599 9.36281 24.8365 9.54667 24.68 9.7C24.5267 9.85655 24.3428 9.97993 24.1398 10.0625C23.9368 10.1451 23.7191 10.1851 23.5 10.18L23.48 10.2Z"
+                                fill="#212121" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <div class="sm:flex justify-between max-w-[1434px] mx-auto px-5">
+            <p class="text-[#212121] font-medium text-[16px] ml-7 text-center">© 2023 Auto Schrader</p>
+            <p class="text-[#212121] font-medium text-[16px] text-center">Advanced Automotive Dealer Websites by Dealer
+                Inspire</p>
+            <ul class="flex gap-5 sm:mx-0 mx-auto justify-center">
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap</li>
+                <li class="text-[#212121] font-medium text-[16px]">Privacy Policy</li>
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap XML</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
