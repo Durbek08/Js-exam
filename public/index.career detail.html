@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT-R</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="">
+
+        <!-- HEADER-CONTAINER-top -->
+        <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px]">
+
+            <!-- LOCATION -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- LOCATION-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                    <path
+                        d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
+                        fill="#323232" />
+                </svg>
+                <!-- LOCATION-TEXT -->
+                <p class="">Standorte</p>
+            </div>
+
+            <!-- POISK -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- POISK-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                        stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <!-- POISK-TEXT -->
+                <p class="">Search</p>
+            </div>
+
+        </div>
+
+        <!-- HEADER-CONTAINER-bottom -->
+        <div class="bg-[#363636]">
+            <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+
+                <a href="./block.html" class=""><img src="./blockimg/logo (2).png" alt=""
+                        class=" object-cover w-[200px] h-[90px]"></a>
+                <ul class="xl:flex hidden gap-11 ">
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            verkaufen<svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Service<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Mehr<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+                </ul>
+                <button class="flex xl:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
+                        height="30px">
+                        <path
+                            d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                    </svg>
+                </button>
+            </div>
+    </header>
+
+
+
+    <section class="pt-[75px]">
+        <div class="max-w-[1302px] mx-auto px-5">
+
+            <div class="">
+                <h1 class="font-normal text-[24px] mb-2 ">KFZ-MECHATRONIKER (M/W/D)</h1>
+
+                <style>
+                    .as {
+                        color: #81AF32;
+                    }
+                </style>
+
+                <ul class="sm:flex mb-6">
+                    <!-- Li-1 -->
+                    <li class="lk as flex items-center gap-3 text-[15px]"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="12" height="16" viewBox="0 0 12 16" fill="none">
+                            <path
+                                d="M11.4214 0.379883C11.5665 0.379883 11.692 0.432897 11.7981 0.538923C11.9041 0.64495 11.9571 0.770508 11.9571 0.915598V14.8442C11.9571 14.9893 11.9041 15.1148 11.7981 15.2208C11.692 15.3269 11.5665 15.3799 11.4214 15.3799H0.707101C0.562012 15.3799 0.436454 15.3269 0.330427 15.2208C0.2244 15.1148 0.171387 14.9893 0.171387 14.8442V0.915598C0.171387 0.770508 0.2244 0.64495 0.330427 0.538923C0.436454 0.432897 0.562012 0.379883 0.707101 0.379883H11.4214ZM4.4571 2.7906V3.32631C4.4571 3.40444 4.48221 3.46861 4.53244 3.51883C4.58266 3.56906 4.64683 3.59417 4.72496 3.59417H5.26067C5.3388 3.59417 5.40297 3.56906 5.45319 3.51883C5.50342 3.46861 5.52853 3.40444 5.52853 3.32631V2.7906C5.52853 2.71247 5.50342 2.6483 5.45319 2.59807C5.40297 2.54785 5.3388 2.52274 5.26067 2.52274H4.72496C4.64683 2.52274 4.58266 2.54785 4.53244 2.59807C4.48221 2.6483 4.4571 2.71247 4.4571 2.7906ZM4.4571 4.93345V5.46917C4.4571 5.54729 4.48221 5.61147 4.53244 5.66169C4.58266 5.71191 4.64683 5.73703 4.72496 5.73703H5.26067C5.3388 5.73703 5.40297 5.71191 5.45319 5.66169C5.50342 5.61147 5.52853 5.54729 5.52853 5.46917V4.93345C5.52853 4.85533 5.50342 4.79116 5.45319 4.74093C5.40297 4.69071 5.3388 4.6656 5.26067 4.6656H4.72496C4.64683 4.6656 4.58266 4.69071 4.53244 4.74093C4.48221 4.79116 4.4571 4.85533 4.4571 4.93345ZM4.4571 7.07631V7.61203C4.4571 7.69015 4.48221 7.75432 4.53244 7.80455C4.58266 7.85477 4.64683 7.87988 4.72496 7.87988H5.26067C5.3388 7.87988 5.40297 7.85477 5.45319 7.80455C5.50342 7.75432 5.52853 7.69015 5.52853 7.61203V7.07631C5.52853 6.99819 5.50342 6.93401 5.45319 6.88379C5.40297 6.83357 5.3388 6.80845 5.26067 6.80845H4.72496C4.64683 6.80845 4.58266 6.83357 4.53244 6.88379C4.48221 6.93401 4.4571 6.99819 4.4571 7.07631ZM4.4571 9.21917V9.75488C4.4571 9.83301 4.48221 9.89718 4.53244 9.94741C4.58266 9.99763 4.64683 10.0227 4.72496 10.0227H5.26067C5.3388 10.0227 5.40297 9.99763 5.45319 9.94741C5.50342 9.89718 5.52853 9.83301 5.52853 9.75488V9.21917C5.52853 9.14104 5.50342 9.07687 5.45319 9.02665C5.40297 8.97642 5.3388 8.95131 5.26067 8.95131H4.72496C4.64683 8.95131 4.58266 8.97642 4.53244 9.02665C4.48221 9.07687 4.4571 9.14104 4.4571 9.21917ZM3.38567 11.8977V11.362C3.38567 11.2839 3.36056 11.2197 3.31034 11.1695C3.26011 11.1193 3.19594 11.0942 3.11782 11.0942H2.5821C2.50398 11.0942 2.4398 11.1193 2.38958 11.1695C2.33936 11.2197 2.31424 11.2839 2.31424 11.362V11.8977C2.31424 11.9759 2.33936 12.04 2.38958 12.0903C2.4398 12.1405 2.50398 12.1656 2.5821 12.1656H3.11782C3.19594 12.1656 3.26011 12.1405 3.31034 12.0903C3.36056 12.04 3.38567 11.9759 3.38567 11.8977ZM3.38567 9.75488V9.21917C3.38567 9.14104 3.36056 9.07687 3.31034 9.02665C3.26011 8.97642 3.19594 8.95131 3.11782 8.95131H2.5821C2.50398 8.95131 2.4398 8.97642 2.38958 9.02665C2.33936 9.07687 2.31424 9.14104 2.31424 9.21917V9.75488C2.31424 9.83301 2.33936 9.89718 2.38958 9.94741C2.4398 9.99763 2.50398 10.0227 2.5821 10.0227H3.11782C3.19594 10.0227 3.26011 9.99763 3.31034 9.94741C3.36056 9.89718 3.38567 9.83301 3.38567 9.75488ZM3.38567 7.61203V7.07631C3.38567 6.99819 3.36056 6.93401 3.31034 6.88379C3.26011 6.83357 3.19594 6.80845 3.11782 6.80845H2.5821C2.50398 6.80845 2.4398 6.83357 2.38958 6.88379C2.33936 6.93401 2.31424 6.99819 2.31424 7.07631V7.61203C2.31424 7.69015 2.33936 7.75432 2.38958 7.80455C2.4398 7.85477 2.50398 7.87988 2.5821 7.87988H3.11782C3.19594 7.87988 3.26011 7.85477 3.31034 7.80455C3.36056 7.75432 3.38567 7.69015 3.38567 7.61203ZM3.38567 5.46917V4.93345C3.38567 4.85533 3.36056 4.79116 3.31034 4.74093C3.26011 4.69071 3.19594 4.6656 3.11782 4.6656H2.5821C2.50398 4.6656 2.4398 4.69071 2.38958 4.74093C2.33936 4.79116 2.31424 4.85533 2.31424 4.93345V5.46917C2.31424 5.54729 2.33936 5.61147 2.38958 5.66169C2.4398 5.71191 2.50398 5.73703 2.5821 5.73703H3.11782C3.19594 5.73703 3.26011 5.71191 3.31034 5.66169C3.36056 5.61147 3.38567 5.54729 3.38567 5.46917ZM3.38567 3.32631V2.7906C3.38567 2.71247 3.36056 2.6483 3.31034 2.59807C3.26011 2.54785 3.19594 2.52274 3.11782 2.52274H2.5821C2.50398 2.52274 2.4398 2.54785 2.38958 2.59807C2.33936 2.6483 2.31424 2.71247 2.31424 2.7906V3.32631C2.31424 3.40444 2.33936 3.46861 2.38958 3.51883C2.4398 3.56906 2.50398 3.59417 2.5821 3.59417H3.11782C3.19594 3.59417 3.26011 3.56906 3.31034 3.51883C3.36056 3.46861 3.38567 3.40444 3.38567 3.32631ZM7.67139 14.0406V12.4335C7.67139 12.3553 7.64628 12.2912 7.59605 12.2409C7.54583 12.1907 7.48165 12.1656 7.40353 12.1656H4.72496C4.64683 12.1656 4.58266 12.1907 4.53244 12.2409C4.48221 12.2912 4.4571 12.3553 4.4571 12.4335V14.0406C4.4571 14.1187 4.48221 14.1829 4.53244 14.2331C4.58266 14.2833 4.64683 14.3085 4.72496 14.3085H7.40353C7.48165 14.3085 7.54583 14.2833 7.59605 14.2331C7.64628 14.1829 7.67139 14.1187 7.67139 14.0406ZM7.67139 9.75488V9.21917C7.67139 9.14104 7.64628 9.07687 7.59605 9.02665C7.54583 8.97642 7.48165 8.95131 7.40353 8.95131H6.86782C6.78969 8.95131 6.72552 8.97642 6.67529 9.02665C6.62507 9.07687 6.59996 9.14104 6.59996 9.21917V9.75488C6.59996 9.83301 6.62507 9.89718 6.67529 9.94741C6.72552 9.99763 6.78969 10.0227 6.86782 10.0227H7.40353C7.48165 10.0227 7.54583 9.99763 7.59605 9.94741C7.64628 9.89718 7.67139 9.83301 7.67139 9.75488ZM7.67139 7.61203V7.07631C7.67139 6.99819 7.64628 6.93401 7.59605 6.88379C7.54583 6.83357 7.48165 6.80845 7.40353 6.80845H6.86782C6.78969 6.80845 6.72552 6.83357 6.67529 6.88379C6.62507 6.93401 6.59996 6.99819 6.59996 7.07631V7.61203C6.59996 7.69015 6.62507 7.75432 6.67529 7.80455C6.72552 7.85477 6.78969 7.87988 6.86782 7.87988H7.40353C7.48165 7.87988 7.54583 7.85477 7.59605 7.80455C7.64628 7.75432 7.67139 7.69015 7.67139 7.61203ZM7.67139 5.46917V4.93345C7.67139 4.85533 7.64628 4.79116 7.59605 4.74093C7.54583 4.69071 7.48165 4.6656 7.40353 4.6656H6.86782C6.78969 4.6656 6.72552 4.69071 6.67529 4.74093C6.62507 4.79116 6.59996 4.85533 6.59996 4.93345V5.46917C6.59996 5.54729 6.62507 5.61147 6.67529 5.66169C6.72552 5.71191 6.78969 5.73703 6.86782 5.73703H7.40353C7.48165 5.73703 7.54583 5.71191 7.59605 5.66169C7.64628 5.61147 7.67139 5.54729 7.67139 5.46917ZM7.67139 3.32631V2.7906C7.67139 2.71247 7.64628 2.6483 7.59605 2.59807C7.54583 2.54785 7.48165 2.52274 7.40353 2.52274H6.86782C6.78969 2.52274 6.72552 2.54785 6.67529 2.59807C6.62507 2.6483 6.59996 2.71247 6.59996 2.7906V3.32631C6.59996 3.40444 6.62507 3.46861 6.67529 3.51883C6.72552 3.56906 6.78969 3.59417 6.86782 3.59417H7.40353C7.48165 3.59417 7.54583 3.56906 7.59605 3.51883C7.64628 3.46861 7.67139 3.40444 7.67139 3.32631ZM9.81424 11.8977V11.362C9.81424 11.2839 9.78913 11.2197 9.73891 11.1695C9.68869 11.1193 9.62451 11.0942 9.54639 11.0942H9.01067C8.93255 11.0942 8.86837 11.1193 8.81815 11.1695C8.76793 11.2197 8.74282 11.2839 8.74282 11.362V11.8977C8.74282 11.9759 8.76793 12.04 8.81815 12.0903C8.86837 12.1405 8.93255 12.1656 9.01067 12.1656H9.54639C9.62451 12.1656 9.68869 12.1405 9.73891 12.0903C9.78913 12.04 9.81424 11.9759 9.81424 11.8977ZM9.81424 9.75488V9.21917C9.81424 9.14104 9.78913 9.07687 9.73891 9.02665C9.68869 8.97642 9.62451 8.95131 9.54639 8.95131H9.01067C8.93255 8.95131 8.86837 8.97642 8.81815 9.02665C8.76793 9.07687 8.74282 9.14104 8.74282 9.21917V9.75488C8.74282 9.83301 8.76793 9.89718 8.81815 9.94741C8.86837 9.99763 8.93255 10.0227 9.01067 10.0227H9.54639C9.62451 10.0227 9.68869 9.99763 9.73891 9.94741C9.78913 9.89718 9.81424 9.83301 9.81424 9.75488ZM9.81424 7.61203V7.07631C9.81424 6.99819 9.78913 6.93401 9.73891 6.88379C9.68869 6.83357 9.62451 6.80845 9.54639 6.80845H9.01067C8.93255 6.80845 8.86837 6.83357 8.81815 6.88379C8.76793 6.93401 8.74282 6.99819 8.74282 7.07631V7.61203C8.74282 7.69015 8.76793 7.75432 8.81815 7.80455C8.86837 7.85477 8.93255 7.87988 9.01067 7.87988H9.54639C9.62451 7.87988 9.68869 7.85477 9.73891 7.80455C9.78913 7.75432 9.81424 7.69015 9.81424 7.61203ZM9.81424 5.46917V4.93345C9.81424 4.85533 9.78913 4.79116 9.73891 4.74093C9.68869 4.69071 9.62451 4.6656 9.54639 4.6656H9.01067C8.93255 4.6656 8.86837 4.69071 8.81815 4.74093C8.76793 4.79116 8.74282 4.85533 8.74282 4.93345V5.46917C8.74282 5.54729 8.76793 5.61147 8.81815 5.66169C8.86837 5.71191 8.93255 5.73703 9.01067 5.73703H9.54639C9.62451 5.73703 9.68869 5.71191 9.73891 5.66169C9.78913 5.61147 9.81424 5.54729 9.81424 5.46917ZM9.81424 3.32631V2.7906C9.81424 2.71247 9.78913 2.6483 9.73891 2.59807C9.68869 2.54785 9.62451 2.52274 9.54639 2.52274H9.01067C8.93255 2.52274 8.86837 2.54785 8.81815 2.59807C8.76793 2.6483 8.74282 2.71247 8.74282 2.7906V3.32631C8.74282 3.40444 8.76793 3.46861 8.81815 3.51883C8.86837 3.56906 8.93255 3.59417 9.01067 3.59417H9.54639C9.62451 3.59417 9.68869 3.56906 9.73891 3.51883C9.78913 3.46861 9.81424 3.40444 9.81424 3.32631Z"
+                                fill="#677078" />
+                        </svg>AS Bochum</li>
+                    <!-- Li-2 -->
+                    <li class="lk sm:ml-12 flex items-center gap-3 text-[15px]"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="10" height="14" viewBox="0 0 10 14" fill="none">
+                            <path
+                                d="M6.39502 6.25223C6.39502 6.25223 6.49965 6.1476 6.70891 5.93834C6.91818 5.72907 7.02281 5.32868 7.02281 4.73717C7.02281 4.14565 6.81355 3.64062 6.39502 3.2221C5.97649 2.80357 5.47147 2.59431 4.87995 2.59431C4.28843 2.59431 3.78341 2.80357 3.36489 3.2221C2.94636 3.64062 2.7371 4.14565 2.7371 4.73717C2.7371 5.32868 2.94636 5.83371 3.36489 6.25223C3.78341 6.67076 4.28843 6.88002 4.87995 6.88002C5.47147 6.88002 5.97649 6.67076 6.39502 6.25223ZM9.16567 4.73717C9.16567 5.34542 9.07359 5.84487 8.88944 6.23549L5.84256 12.7143C5.75328 12.8984 5.62074 13.0435 5.44496 13.1496C5.26918 13.2556 5.08085 13.3086 4.87995 13.3086C4.67906 13.3086 4.49072 13.2556 4.31494 13.1496C4.13916 13.0435 4.00942 12.8984 3.92571 12.7143L0.870466 6.23549C0.686314 5.84487 0.594238 5.34542 0.594238 4.73717C0.594238 3.55413 1.01277 2.54409 1.84982 1.70703C2.68687 0.869978 3.69692 0.451451 4.87995 0.451451C6.06299 0.451451 7.07303 0.869978 7.91009 1.70703C8.74714 2.54409 9.16567 3.55413 9.16567 4.73717Z"
+                                fill="#677078" />
+                        </svg>Bochum, NRW</li>
+                    <!-- Li-3 -->
+                    <li class="lk sm:ml-4 flex items-center gap-3 text-[15px]"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="14" height="16" viewBox="0 0 14 16" fill="none">
+                            <g clip-path="url(#clip0_1618_5940)">
+                                <path
+                                    d="M7.94141 4.93359V8.68359C7.94141 8.76172 7.91629 8.82589 7.86607 8.87612C7.81585 8.92634 7.75167 8.95145 7.67355 8.95145H4.99498C4.91685 8.95145 4.85268 8.92634 4.80246 8.87612C4.75223 8.82589 4.72712 8.76172 4.72712 8.68359V8.14788C4.72712 8.06975 4.75223 8.00558 4.80246 7.95536C4.85268 7.90513 4.91685 7.88002 4.99498 7.88002H6.86998V4.93359C6.86998 4.85547 6.89509 4.7913 6.94531 4.74107C6.99554 4.69085 7.05971 4.66574 7.13783 4.66574H7.67355C7.75167 4.66574 7.81585 4.69085 7.86607 4.74107C7.91629 4.7913 7.94141 4.85547 7.94141 4.93359ZM10.8125 10.1652C10.8125 10.1652 10.9143 9.99079 11.118 9.64202C11.3217 9.29325 11.4235 8.70592 11.4235 7.88002C11.4235 7.05413 11.2199 6.29241 10.8125 5.59487C10.4051 4.89732 9.85268 4.34487 9.15513 3.9375C8.45759 3.53013 7.69587 3.32645 6.86998 3.32645C6.04408 3.32645 5.28237 3.53013 4.58482 3.9375C3.88728 4.34487 3.33482 4.89732 2.92746 5.59487C2.52009 6.29241 2.31641 7.05413 2.31641 7.88002C2.31641 8.70592 2.52009 9.46763 2.92746 10.1652C3.33482 10.8627 3.88728 11.4152 4.58482 11.8225C5.28237 12.2299 6.04408 12.4336 6.86998 12.4336C7.69587 12.4336 8.45759 12.2299 9.15513 11.8225C9.85268 11.4152 10.4051 10.8627 10.8125 10.1652ZM12.4364 4.65318C12.4364 4.65318 12.5801 4.89941 12.8675 5.39188C13.1549 5.88435 13.2985 6.71373 13.2985 7.88002C13.2985 9.04632 13.0112 10.1219 12.4364 11.1069C11.8616 12.0918 11.0818 12.8717 10.0968 13.4464C9.11189 14.0212 8.03627 14.3086 6.86998 14.3086C5.70368 14.3086 4.62807 14.0212 3.64314 13.4464C2.6582 12.8717 1.87835 12.0918 1.30357 11.1069C0.728795 10.1219 0.441406 9.04632 0.441406 7.88002C0.441406 6.71373 0.728795 5.63811 1.30357 4.65318C1.87835 3.66825 2.6582 2.88839 3.64314 2.31362C4.62807 1.73884 5.70368 1.45145 6.86998 1.45145C8.03627 1.45145 9.11189 1.73884 10.0968 2.31362C11.0818 2.88839 11.8616 3.66825 12.4364 4.65318Z"
+                                    fill="#677078" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1618_5940">
+                                    <rect width="13.2" height="15" fill="white"
+                                        transform="matrix(1 0 0 -1 0.27002 15.3799)" />
+                                </clipPath>
+                            </defs>
+                        </svg>Vollzeit</li>
+
+                </ul>
+                <button
+                    class="py-4 px-[54px] w-full sm:[w-213px] bg-[#347EA4] text-white font-bold text-[14px] rounded-lg mb-[14px]">Jetzt
+                    bewerben</button>
+            </div>
+
+            <div class="">
+                <p class="font-bold  text-[14px] mb-4 text-[#677078]">Audi Schrader Bochum sucht einen talentierten
+                    Fachmann, der das Team leitet. Wenn Sie nach
+                    einer aufregenden Karriere bei einem der besten Arbeitsplätze in Bochum suchen - Bewerben Sie sich
+                    noch heute!! Unser Erfolg wird von unserer einzigartigen Kultur und modernster Technologie
+                    vorangetrieben. Um unsere Vision zu verwirklichen, suchen wir Verkaufsprofis, die anders denken und
+                    sich darum bemühen, 100%ige Gästezufriedenheit zu bieten. Wir bieten erstklassige Schulungen, um
+                    Ihren Erfolg sicherzustellen.</p>
+
+                <p class="font-normal text-[14px] mb-4 text-[#677078]">Als General Manager sind Sie für die Verwaltung
+                    aller Aspekte eines Ladens zuständig,
+                    einschließlich Einzelhandel, Service und kommerzieller Verkäufe, Produktivität, Rentabilität,
+                    Arbeitsumfeld, kommerzielle Beziehungen, visuelle Präsentationsstandards und operative Einhaltung.
+                </p>
+
+                <h2 class="font-bold  text-[14px] mb-4 text-[#677078]">Woran Sie arbeiten werden:</h2>
+                <ul class="mb-[21px]">
+                    <li class="text-[14px] font-normal text-[#677078]">Verantwortlich für die Rentabilität in allen
+                        Abteilungen im Autohaus.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Entwickeln und umsetzen eines strategischen Plans
+                        zur Erreichung monatlicher und jährlicher Prognosen für alle Abteilungen.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Einstellung, Betreuung und Überwachung der
+                        Leistung aller Abteilungsleiter.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses..</li>
+                </ul>
+                <h2 class="font-bold  text-[14px] mb-4 text-[#677078]">Was Sie mitbringen sollten:</h2>
+                <ul class="mb-[13px] ">
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+
+                </ul>
+                <h2 class="font-bold  text-[14px] mb-3 text-[#677078] ">Gehalt: <span class="font-normal">20.000 € -
+                        80.000 € / pro Jahr</span></h2>
+                <h2 class="font-bold  text-[14px] mb-4 text-[#677078]">Branchenführende Vorteile:</h2>
+
+                <ul class="mb-[21px] ">
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                    <li class="text-[14px] font-normal text-[#677078]">Sicherstellen einer hervorragenden
+                        Kundenservicequalität (CSI) durch die Unternehmenskultur des Autohauses.</li>
+                </ul>
+
+                <h2 class="font-bold  text-[14px] mb-5 text-[#677078]">Mehr über Auto Schrader</h2>
+
+                <h3 class="max-w-[1302px] text-[14px] font-normal text-[#677078] mb-4">The Del Grande Dealer Group
+                    (DGDG) is the largest family-owned automotive group in the Bay Area. Our team is over 1,000 strong
+                    and growing. We’ve been named a Bay Area News Group Top Workplace for 12 consecutive years (not to
+                    mention being named a Top Workplace USA in 2020). Our enthusiastic and courteous team, award-winning
+                    culture, combined with our cutting-edge technology, provide guests with a one-of-a-kind,
+                    “best-in-class" dealership experience. </h3>
+
+                <h4 class="max-w-[1302px] text-[14px] font-normal text-[#677078] mb-5">DGDG's 4 core values of
+                    Integrity, Caring, Performance, and Efficiency have stood at the cornerstone of our success. Our
+                    shared passion for training, teaching, recognition, reward, and promotion produces results that set
+                    us apart.  </h4>
+
+                <h4 class="max-w-[1302px] text-[14px] font-normal text-[#677078] mb-2">“Be happy” is much more than
+                    a slogan. It’s a way of doing business. We pride ourselves on making our guests and our team members
+                    exceedingly happy. And we’d be happy if you joined us! </h4>
+                <h4 class="max-w-[1302px] text-[14px] font-normal text-[#677078] mb-4">
+                    DGDG takes your privacy seriously. You can learn more <span class="text-[#81AF32]"> DGDG Privacy
+                        Policy*.</span></h4>
+
+                <h4 class="max-w-[1302px] text-[14px] font-normal text-[#677078] mb-4">We are an equal opportunity
+                    employer and prohibit discrimination/harassment without regard to race, color, religion, age, sex,
+                    national origin, disability status, genetics, protected veteran status, sexual orientation, gender
+                    identity or expression, or any other characteristic protected by federal, state or local laws.</h4>
+                <a href="#" class="font-medium text-[14px] text-[#677078]">*www.auto-schrader.de/datenschutz</a>
+
+                <a href="#" class="text-[#347EA4] flex items-center gap-1 mt-[27px] mb-[27px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                        <path
+                            d="M13.2271 8.17773C13.2271 8.46233 13.1238 8.71345 12.9174 8.93108L12.2896 9.55887C12.0775 9.77093 11.8236 9.87695 11.5279 9.87695C11.2265 9.87695 10.9754 9.77093 10.7745 9.55887L8.31358 7.10631V12.9992C8.31358 13.2893 8.20895 13.5251 7.99969 13.7065C7.79042 13.8878 7.53791 13.9785 7.24215 13.9785H6.17072C5.87497 13.9785 5.62245 13.8878 5.41319 13.7065C5.20393 13.5251 5.0993 13.2893 5.0993 12.9992V7.10631L2.63836 9.55887C2.43746 9.77093 2.18635 9.87695 1.88501 9.87695C1.58367 9.87695 1.33255 9.77093 1.13166 9.55887L0.503871 8.93108C0.291818 8.71903 0.185791 8.46791 0.185791 8.17773C0.185791 7.88198 0.291818 7.62807 0.503871 7.41602L5.95309 1.9668C6.1484 1.76032 6.39952 1.65709 6.70644 1.65709C7.00778 1.65709 7.26168 1.76032 7.46816 1.9668L12.9174 7.41602C13.1238 7.63365 13.2271 7.88756 13.2271 8.17773Z"
+                            fill="#347EA4" />
+                    </svg>
+                    Hide full job description
+                </a>
+            </div>
+
+            <style>
+                .top {
+                    border-top: 1px solid #D6DADC;
+                }
+            </style>
+
+            <div class="top max-w-[772px] ">
+                <h2 class="font-normal text-2xl mb-6 mt-3">Jetzt bewerben</h2>
+
+                <input
+                    class="w-full border-solid border-2 border-[#9DA3A8] py-4 pl-[13px] rounded-xl text-[#677078] mb-6"
+                    type="text" placeholder="Vor- und Nachname">
+                <input
+                    class="w-full border-solid border-2 border-[#9DA3A8] py-4 pl-[13px] rounded-xl text-[#677078] mb-6"
+                    type="email" placeholder="E-Mail Adresse">
+                <input
+                    class="w-full border-solid border-2 border-[#9DA3A8] py-4 pl-[13px] rounded-xl text-[#677078] mb-6"
+                    type="tel" placeholder="Telefon">
+
+                <p class="font-bold  text-[14px] mb-4 text-[#677078] ">Ich ermächtige Auto Schrader, mich zusätzlich zu
+                    der konkreten Stelle, für die ich mich bewerbe,
+                    für andere Stellenangebote innerhalb der nächsten 12 Monate bei Tesla zu berücksichtigen.</p>
+
+
+                <div class="mb-4">
+                    <input type="radio" name="link" id=""> Yes
+                </div>
+
+                <div class="mb-8">
+                    <input type="radio" name="link" id=""> No
+                </div>
+
+                <div class="mb-[35px]">
+                    <p class="font-bold text-[16px] mb-2 text-[#677078]">Lebenslauf</p>
+                    <p class="text-[15px] font-normal  text-[#677078] mb-3">Eine Datei mit max. 10 MB (PDF, Doc, TXT)
+                    </p>
+                    <button
+                        class="border-solid rounded-lg border-2 border-[#347EA4] flex items-center gap-2 text-[#347EA4] font-bold text-[16px] py-4 w-[205px] justify-center "><svg
+                            xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
+                            <path
+                                d="M0.380614 12.5251C0.380614 13.2215 0.615734 13.8049 1.08597 14.2751C1.55621 14.7453 2.13954 14.9805 2.83597 14.9805C3.63954 14.9805 4.33895 14.6828 4.93419 14.0876L11.8717 7.15904C12.5443 6.47452 12.8806 5.66797 12.8806 4.7394C12.8806 3.79297 12.5532 2.9894 11.8985 2.32868C11.2437 1.66797 10.4431 1.33761 9.49669 1.33761C8.55621 1.33761 7.74371 1.67392 7.05919 2.34654L1.6574 7.75725C1.59788 7.81678 1.56811 7.88225 1.56811 7.95368C1.56811 8.04892 1.65889 8.18731 1.84044 8.36886C2.02198 8.55041 2.16038 8.64118 2.25562 8.64118C2.333 8.64118 2.40145 8.61142 2.46097 8.5519L7.87169 3.13225C8.34192 2.67392 8.88062 2.44475 9.48776 2.44475C10.1187 2.44475 10.6514 2.66797 11.086 3.1144C11.5205 3.56083 11.7378 4.09952 11.7378 4.73047C11.7378 5.35547 11.5116 5.89416 11.0592 6.34654L4.13062 13.284C3.75562 13.659 3.32407 13.8465 2.83597 13.8465C2.45502 13.8465 2.13954 13.7215 1.88954 13.4715C1.63954 13.2215 1.51454 12.9061 1.51454 12.5251C1.51454 12.037 1.70204 11.6055 2.07704 11.2305L7.26454 6.04297C7.41931 5.90011 7.59788 5.82868 7.80026 5.82868C7.97288 5.82868 8.11573 5.88523 8.22883 5.99833C8.34192 6.11142 8.39847 6.25428 8.39847 6.4269C8.39847 6.61737 8.32407 6.79297 8.17526 6.95368L4.51454 10.6144C4.45502 10.6739 4.42526 10.7394 4.42526 10.8108C4.42526 10.9061 4.51752 11.0459 4.70204 11.2305C4.88657 11.415 5.02645 11.5073 5.12169 11.5073C5.19311 11.5073 5.25859 11.4775 5.31811 11.418L8.97883 7.75725C9.35383 7.39416 9.54133 6.95071 9.54133 6.4269C9.54133 5.9388 9.37169 5.52511 9.0324 5.18583C8.69312 4.84654 8.27942 4.6769 7.79133 4.6769C7.26752 4.6769 6.82407 4.8644 6.46097 5.2394L1.27347 10.4269C0.678234 11.0102 0.380614 11.7096 0.380614 12.5251Z"
+                                fill="#347EA4" />
+                        </svg>
+                        Datei auswählen</button>
+                </div>
+
+                <div class="">
+                    <p class="text-[16px] text-[#677078] font-bold mb-16">Career Needs</p>
+
+                    <!-- <div class="">
+                           <p class="flex  px-4 py-4 gap-[112px] border-solid border-2 border-[#9DA3A8]">Timeframe to start new position
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <g clip-path="url(#clip0_1618_6034)">
+                                <path d="M13.9493 6.95187L7.73832 13.1544C7.63229 13.2605 7.50673 13.3135 7.36164 13.3135C7.21655 13.3135 7.09099 13.2605 6.98497 13.1544L0.77403 6.95187C0.668004 6.84584 0.61499 6.71889 0.61499 6.57101C0.61499 6.42313 0.668004 6.29618 0.77403 6.19015L2.16354 4.80901C2.26957 4.70299 2.39512 4.64997 2.54021 4.64997C2.6853 4.64997 2.81086 4.70299 2.91689 4.80901L7.36164 9.25377L11.8064 4.80901C11.9124 4.70299 12.038 4.64997 12.1831 4.64997C12.3282 4.64997 12.4537 4.70299 12.5597 4.80901L13.9493 6.19015C14.0553 6.29618 14.1083 6.42313 14.1083 6.57101C14.1083 6.71889 14.0553 6.84584 13.9493 6.95187Z" fill="#677078"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1618_6034">
+                                <rect width="15.41" height="15" fill="white" transform="matrix(1 0 0 -1 0.409912 15.1885)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                           </p>
+                           <input class="flex w-[379px]  px-4 py-4 gap-[112px] border-solid border-2 border-[#9DA3A8]" type="date">
+                        </div>
+                     </div> -->
+
+                    <p class="text-[16px] text-[#677078] font-bold mb-7">Signatur</p>
+
+
+
+                </div>
+
+
+
+
+            </div>
+            <p class=" text-[#677078] mb-[26px] text-[14px] font-normal">
+                1. Ich bestätige hiermit, dass alle Aussagen, die ich zu dieser Bewerbung und zu meinem
+                Lebenslauf oder anderen ergänzenden <br>
+                Materialien gemacht habe, wahr und korrekt sind. Ich nehme zur Kenntnis, dass Falschangaben zu
+                dieser Bewerbung, zu meinem Lebenslauf <br>
+                oder ergänzendem Material zu einer Verweigerung der Einstellung oder während der Dauer eines
+                Beschäftigungsverhältnisses zu einer sofortig wirksamen
+                Kündigung führen können.
+                <br> <br>
+                2. Ich verstehe, dass kein Vorgesetzter oder Manager die oben genannten Bedingungen ändern oder
+                ergänzen darf, es sei denn, diese sind von einem leitenden
+                Angestellten des Unternehmens schriftlich unterzeichnet.
+                3. Datenschutzhinweise für Tesla-Bewerber
+            </p>
+            <p class="flex gap-2 items-center text-[#677078] mb-3">
+                <input type="checkbox">
+                Ich habe die vorstehenden Ausführungen gelesen und verstanden und akzeptiere sie als
+                Beschäftigungsbedingungen.
+            </p>
+
+            <style>
+                .sss {
+                    border-bottom: 1px solid #D6DADC;
+                }
+            </style>
+
+            <div class="sss pb-11 mb-10 max-w-[772px] sm:flex gap-7">
+                <div class=" w-full sm:w-[386px] border-solid border-2 border-[#9DA3A8] rounded-lg ">
+                    <p class="font-normal text-[16px] py-3 pl-3 text-[#677078]">Signatur *</p>
+                </div>
+                <p class="font-normal text-[16px] py-3 pl-3 text-[#677078]">Datum: 8/17/2023</p>
+
+
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="pb-7">
+        <div class="max-w-[1434px] mx-auto sm:flex justify-between items-center border-t-[1px] border-t-[#010101] px-5">
+            <img src="./blockimg/logo (2).png" alt="" class="mx-auto sm:mx-0">
+            <ul class="flex gap-8 mx-auto sm:mx-0 justify-center mb-2">
+                <!-- TWITTER -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M29.9467 8.00004C28.92 8.46671 27.8133 8.77337 26.6667 8.92004C27.84 8.21337 28.7467 7.09337 29.1733 5.74671C28.0667 6.41337 26.84 6.88004 25.5467 7.14671C24.4933 6.00004 23.0133 5.33337 21.3333 5.33337C18.2 5.33337 15.64 7.89337 15.64 11.0534C15.64 11.5067 15.6933 11.9467 15.7867 12.36C11.04 12.12 6.81334 9.84004 4.00001 6.38671C3.50668 7.22671 3.22668 8.21337 3.22668 9.25337C3.22668 11.24 4.22668 13 5.77334 14C4.82668 14 3.94668 13.7334 3.17334 13.3334V13.3734C3.17334 16.1467 5.14668 18.4667 7.76001 18.9867C6.92098 19.2163 6.04014 19.2483 5.18668 19.08C5.54882 20.2167 6.25806 21.2113 7.2147 21.9239C8.17134 22.6366 9.32727 23.0316 10.52 23.0534C8.49818 24.654 5.99201 25.5191 3.41334 25.5067C2.96001 25.5067 2.50668 25.48 2.05334 25.4267C4.58668 27.0534 7.60001 28 10.8267 28C21.3333 28 27.1067 19.28 27.1067 11.72C27.1067 11.4667 27.1067 11.2267 27.0933 10.9734C28.2133 10.1734 29.1733 9.16004 29.9467 8.00004Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- FACEBOOK -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M18.6666 18H22L23.3333 12.6666H18.6666V9.99996C18.6666 8.62663 18.6666 7.33329 21.3333 7.33329H23.3333V2.85329C22.8986 2.79596 21.2573 2.66663 19.524 2.66663C15.904 2.66663 13.3333 4.87596 13.3333 8.93329V12.6666H9.33331V18H13.3333V29.3333H18.6666V18Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- LINKEDIN -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.572 11.9586H17.524V14.4253C18.2374 13.0066 20.0667 11.732 22.8147 11.732C28.0827 11.732 29.3334 14.556 29.3334 19.7373V29.3333H24V20.9173C24 17.9666 23.2867 16.3026 21.4707 16.3026C18.952 16.3026 17.9054 18.096 17.9054 20.916V29.3333H12.572V11.9586ZM3.42669 29.1066H8.76002V11.732H3.42669V29.1066ZM9.52402 6.06663C9.52422 6.51366 9.43556 6.95627 9.2632 7.36874C9.09084 7.78121 8.83822 8.15531 8.52002 8.46929C7.87522 9.11012 7.00243 9.46883 6.09335 9.46663C5.18587 9.46602 4.3151 9.10822 3.66935 8.47063C3.3523 8.15558 3.10053 7.78106 2.92848 7.36853C2.75642 6.95601 2.66746 6.51359 2.66669 6.06663C2.66669 5.16396 3.02669 4.29996 3.67069 3.66263C4.31587 3.02417 5.18701 2.66623 6.09469 2.66663C7.00402 2.66663 7.87602 3.02529 8.52002 3.66263C9.16269 4.29996 9.52402 5.16396 9.52402 6.06663Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- INSTAGRAM -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M16 11.34C13.42 11.34 11.34 13.44 11.34 16C11.34 18.56 13.44 20.66 16 20.66C18.56 20.66 20.66 18.56 20.66 16C20.66 13.44 18.56 11.34 16 11.34ZM30 16C30 14.06 30 12.16 29.9 10.22C29.8 7.98 29.28 5.98 27.64 4.36C26 2.72 24.02 2.2 21.78 2.1C19.84 2 17.94 2 16 2C14.06 2 12.16 2 10.22 2.1C7.98 2.2 5.98 2.72 4.36 4.36C2.72 6 2.2 7.98 2.1 10.22C2 12.16 2 14.06 2 16C2 17.94 2 19.84 2.1 21.78C2.2 24.02 2.72 26.02 4.36 27.64C6 29.28 7.98 29.8 10.22 29.9C12.16 30 14.06 30 16 30C17.94 30 19.84 30 21.78 29.9C24.02 29.8 26.02 29.28 27.64 27.64C29.28 26 29.8 24.02 29.9 21.78C30.02 19.86 30 17.94 30 16ZM16 23.18C12.02 23.18 8.82 19.98 8.82 16C8.82 12.02 12.02 8.82 16 8.82C19.98 8.82 23.18 12.02 23.18 16C23.18 19.98 19.98 23.18 16 23.18ZM23.48 10.2C22.56 10.2 21.8 9.46 21.8 8.52C21.8 7.58 22.54 6.84 23.48 6.84C24.42 6.84 25.16 7.58 25.16 8.52C25.1651 8.73907 25.1251 8.95685 25.0425 9.15983C24.9599 9.36281 24.8365 9.54667 24.68 9.7C24.5267 9.85655 24.3428 9.97993 24.1398 10.0625C23.9368 10.1451 23.7191 10.1851 23.5 10.18L23.48 10.2Z"
+                                fill="#212121" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <div class="sm:flex justify-between max-w-[1434px] mx-auto px-5">
+            <p class="text-[#212121] font-medium text-[16px] ml-7 text-center">© 2023 Auto Schrader</p>
+            <p class="text-[#212121] font-medium text-[16px] text-center">Advanced Automotive Dealer Websites by
+                Dealer
+                Inspire</p>
+            <ul class="flex gap-5 sm:mx-0 mx-auto justify-center">
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap</li>
+                <li class="text-[#212121] font-medium text-[16px]">Privacy Policy</li>
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap XML</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
+
+
+<script src="./js/app.js"></script>
+</body>
+
+</html>
