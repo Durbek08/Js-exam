@@ -659,8 +659,14 @@ video {
 .ml-auto {
   margin-left: auto;
 }
+.mt-11 {
+  margin-top: 2.75rem;
+}
 .mt-16 {
   margin-top: 4rem;
+}
+.mt-20 {
+  margin-top: 5rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
@@ -740,6 +746,9 @@ video {
 .w-7 {
   width: 1.75rem;
 }
+.w-\[1266px\] {
+  width: 1266px;
+}
 .w-\[200px\] {
   width: 200px;
 }
@@ -757,6 +766,9 @@ video {
 }
 .w-\[595px\] {
   width: 595px;
+}
+.w-\[707px\] {
+  width: 707px;
 }
 .w-full {
   width: 100%;
@@ -784,6 +796,9 @@ video {
 }
 .max-w-\[1381px\] {
   max-width: 1381px;
+}
+.max-w-\[1384px\] {
+  max-width: 1384px;
 }
 .max-w-\[1386px\] {
   max-width: 1386px;
@@ -883,6 +898,15 @@ video {
 }
 .max-w-\[988px\] {
   max-width: 988px;
+}
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[1237px\] {
+  max-width: 1237px;
+}
+.max-w-\[1266px\] {
+  max-width: 1266px;
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1093,6 +1117,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-\[\#\#EE6058\] {
+  background-color: ##EE6058;
+}
 .bg-cover {
   background-size: cover;
 }
@@ -1228,6 +1255,10 @@ video {
 .py-\[15px\] {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -1500,6 +1531,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-\[datenschutz\@auto-schrader\.de\] {
+  color: datenschutz@auto-schrader.de;
+}
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
@@ -1619,6 +1653,10 @@ video {
     width: 209px;
   }
 
+  .sm\:w-\[213px\] {
+    width: 213px;
+  }
+
   .sm\:w-\[220px\] {
     width: 220px;
   }
@@ -1649,10 +1687,6 @@ video {
 
   .sm\:w-\[497px\] {
     width: 497px;
-  }
-
-  .sm\:w-\[213px\] {
-    width: 213px;
   }
 
   .sm\:max-w-\[185px\] {
@@ -1899,6 +1933,10 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
   }
 
   .lg\:w-\[440px\] {
