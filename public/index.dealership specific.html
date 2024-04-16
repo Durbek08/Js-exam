@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="">
+
+        <!-- HEADER-CONTAINER-top -->
+        <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px]">
+
+            <!-- LOCATION -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- LOCATION-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                    <path
+                        d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
+                        fill="#323232" />
+                </svg>
+                <!-- LOCATION-TEXT -->
+                <p class="">Standorte</p>
+            </div>
+
+            <!-- POISK -->
+            <div class="flex items-center cursor-pointer gap-2">
+                <!-- POISK-SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                        stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <!-- POISK-TEXT -->
+                <p class="">Search</p>
+            </div>
+
+        </div>
+
+        <!-- HEADER-CONTAINER-bottom -->
+        <div class="bg-[#363636]">
+            <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
+
+                <a href="./block.html" class=""><img src="./blockimg/logo (2).png" alt=""
+                        class=" object-cover w-[200px] h-[90px]"></a>
+                <ul class="xl:flex hidden gap-11 ">
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Auto
+                            verkaufen<svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Service<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+
+                    <li class=""><a href="#"
+                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">Mehr<svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                                fill="none">
+                                <path
+                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                    fill="white" />
+                            </svg></a></li>
+                </ul>
+                <button class="flex xl:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
+                        height="30px">
+                        <path
+                            d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                    </svg>
+                </button>
+            </div>
+    </header>
+
+    <!-- hero -->
+    <style>
+        .dsss {
+            background-image: url(./img/vieoo/Group\ 1000003301.png);
+            background-size: cover;
+        }
+    </style>
+
+    <section class="dsss justify-center flex pb-2 sm:pb-16">
+
+        <div class="max-w-[1440px]  pb-6 mx-auto relative ">
+
+            <div class="2xl:xl:w-[1440px]">
+                <div class="mx-5  relative max-w-[435px]  pt-10 sm:pt-[138px]">
+                    <h2 class="font-bold text-[35px] sm:text-[48px] text-white">Citroen Bochum</h2>
+                    <p class="font-medium text-2xl max-w-[582px] sm:text-[20px] text-white mb-5">Porschestr. 3, 44809
+                        Bochum Hamme</p>
+                    <p class="flex mb-4 gap-5 font-medium text-[24px] text-white items-center"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M16 2C13.0837 2.00344 10.2878 3.16347 8.22563 5.22563C6.16347 7.28778 5.00344 10.0837 5 13C4.99651 15.3832 5.77498 17.7018 7.216 19.6C7.216 19.6 7.516 19.995 7.565 20.052L16 30L24.439 20.047C24.483 19.994 24.784 19.6 24.784 19.6L24.785 19.597C26.2253 17.6996 27.0034 15.3821 27 13C26.9966 10.0837 25.8365 7.28778 23.7744 5.22563C21.7122 3.16347 18.9163 2.00344 16 2ZM16 17C15.2089 17 14.4355 16.7654 13.7777 16.3259C13.1199 15.8864 12.6072 15.2616 12.3045 14.5307C12.0017 13.7998 11.9225 12.9956 12.0769 12.2196C12.2312 11.4437 12.6122 10.731 13.1716 10.1716C13.731 9.61216 14.4437 9.2312 15.2196 9.07686C15.9956 8.92252 16.7998 9.00173 17.5307 9.30448C18.2616 9.60723 18.8864 10.1199 19.3259 10.7777C19.7654 11.4355 20 12.2089 20 13C19.9987 14.0605 19.5768 15.0771 18.827 15.827C18.0771 16.5768 17.0605 16.9987 16 17Z"
+                                fill="#FAFAFA" />
+                        </svg>Route zum Standort</p>
+
+                    <div class="sm:flex  justify-between mb-4 gap-4 2xl:gap-0">
+                        <button
+                            class="flex mb-3 sm:mb-0  w-full sm:w-[229px] justify-between rounded-md py-3 bg-[#EE6058] font-bold px-4 items-center text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M22.4503 17.35C22.2056 17.0894 21.3417 16.3188 19.7536 15.2992C18.1537 14.2708 16.9739 13.6295 16.6355 13.48C16.6056 13.4668 16.5728 13.4619 16.5404 13.466C16.508 13.47 16.4774 13.4828 16.4517 13.503C15.9066 13.9281 14.9887 14.7091 14.9395 14.7513C14.6217 15.0236 14.6217 15.0236 14.3616 14.9388C13.9041 14.7888 12.4828 14.0341 11.2444 12.7928C10.0059 11.5516 9.21234 10.0952 9.06234 9.63813C8.97656 9.37751 8.97656 9.37751 9.24984 9.0597C9.29203 9.01048 10.0734 8.09267 10.4986 7.54798C10.5188 7.52233 10.5316 7.49167 10.5356 7.45929C10.5396 7.42692 10.5348 7.39405 10.5216 7.36423C10.372 7.02532 9.73078 5.84595 8.70234 4.2461C7.68141 2.65845 6.91172 1.79454 6.65109 1.54985C6.62718 1.52728 6.59762 1.51158 6.56552 1.50441C6.53343 1.49723 6.5 1.49884 6.46875 1.50907C5.55772 1.82214 4.67872 2.22162 3.84375 2.70204C3.0377 3.17062 2.27458 3.70943 1.56328 4.3122C1.53845 4.33331 1.51984 4.36078 1.50943 4.39166C1.49903 4.42254 1.49722 4.45568 1.50422 4.48751C1.60219 4.94407 2.07047 6.85001 3.52359 9.49001C5.00625 12.1844 6.03375 13.5649 8.21109 15.7347C10.3884 17.9045 11.8125 18.9939 14.5097 20.4766C17.1497 21.9297 19.0566 22.3984 19.5122 22.4955C19.5441 22.5024 19.5773 22.5006 19.6082 22.4902C19.6392 22.4798 19.6667 22.4612 19.688 22.4364C20.2906 21.7251 20.8293 20.962 21.2977 20.1559C21.778 19.3209 22.1775 18.4419 22.4906 17.5309C22.5006 17.4999 22.5022 17.4668 22.4951 17.435C22.488 17.4032 22.4725 17.3738 22.4503 17.35Z"
+                                    fill="white" />
+                            </svg>Jetzt anrufen
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 7L12 13L18 7L20 9L12 17L4 9L6 7Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+
+                        <button
+                            class="flex gap-3 w-full sm:w-[190px] justify-center rounded-md py-3 bg-[#EE6058] font-bold px-4 items-center text-white">
+                            Termin buchen
+                        </button>
+
+                    </div>
+
+                    <button
+                        class="flex gap-3 justify-center w-full rounded-md py-3 border-solid border-2 border-[#FAFAFA] text-[18px]  font-bold px-4 items-center text-white">
+                        Termin buchen
+                    </button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <section class="py-10 bg-[#D9D9D9] mb-20">
+        <div class="mx-auto max-w-[1440px] sm:flex items-center gap-4 justify-center px-5">
+            <p class="font-medium text-[18px] mb-4 text-center sm:mb-0">Verkaufen Sie Ihr Auto an uns. Jetzt kostenlos
+                bewerten lassen.</p>
+            <button
+                class="py-2 px-8 bg-[#EE6058] w-full sm:w-[229px] rounded-md font-semibold text-[18px] text-white">Fahrzeug
+                bewerten</button>
+        </div>
+    </section>
+
+
+
+    <section class="pb-[73px]">
+        <h2 class="font-semibold text-[25px] md:text-[40px] text-center px-5 mb-5 md:mb-20">Willkommen bei Citroën
+            Bochum</h2>
+
+        <div class="xl:flex flex-row-reverse  items-center gap-24 max-w-[1248px] mx-auto px-5 ">
+            <div class="">
+                <img src="./img/vieoo/dealership specific.img/placeholder 1.png" alt="" class="mx-auto mb-3 xl:mb-0">
+            </div>
+            <div class="mx-auto">
+                <div class="w-full md:w-[536px]  border-solid border-b-2 border-[#BFBFBF] mb-4 mx-auto xl:mx-0">
+                    <p class="flex gap-2 items-center mb-1 font-medium text-[16px]"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M22.9 21.2L18.8 17.1C19.2 16.1 19 14.8 18.1 14C17.2 13.1 15.9 12.9 14.8 13.4L16.7 15.3L15.3 16.7L13.3 14.7C12.8 15.8 13 17.1 13.9 18.1C14.8 19 16 19.2 17 18.8L21.1 22.9C21.3 23.1 21.6 23.1 21.7 22.9L22.7 21.9C23 21.6 23 21.3 22.9 21.2ZM13 20H2V18C2 15.8 5.6 14 10 14C10.5 14 11 14 11.4 14.1C11.1 14.7 11 15.3 11 16C11 17.6 11.8 19.1 13 20ZM10 4C7.8 4 6 5.8 6 8C6 10.2 7.8 12 10 12C12.2 12 14 10.2 14 8C14 5.8 12.2 4 10 4Z"
+                                fill="#212121" />
+                        </svg>Unsere Services</p>
+
+                    <div class="flex gap-5 md:ml-8 pb-9">
+                        <ul class="w-full md:w-[127px] flex flex-col gap-1 ">
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Neuwagen ></a></li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Gebrauchtwagen ></a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Nutzfahrzeuge ></a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Elektrofahrzeuge
+                                    ></a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Elektrotankstelle
+                                    ></a>
+                            </li>
+                        </ul>
+
+                        <ul class="w-full md:w-[127px] flex flex-col gap-1">
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#FF4545]">Teile & Zubehör
+                                    ></a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#212121]">Service Plan</a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#212121]">TÜV</a></li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#212121]">Finanzierungen</a>
+                            </li>
+                            <li class=""><a href="#" class="font-normal text-[14px] text-[#212121]">Versicherungen</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="md:w-[536px] w-full  pb-11 mb-5 border-b-2 border-[#BFBFBF] mx-auto xl:mx-0">
+                    <p class="flex gap-2 items-center mb-3 font-medium text-[16px]"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21 15.46L15.73 14.85L13.21 17.37C10.3712 15.9262 8.06377 13.6188 6.61999 10.78L9.14999 8.25L8.53999 3H3.02999C2.44999 13.18 10.82 21.55 21 20.97V15.46Z"
+                                fill="#212121" />
+                        </svg>Telefonnummer</p>
+                    <p class="ml-8 font-normal text-[14px]">+49 234 6105050</p>
+                </div>
+
+
+
+                <div class="mx-auto  xl:mx-0 flex flex-col">
+                    <div class="w-full md:w-[536px] felx mx-auto">
+                        <div class="flex gap-5 items-center xl:mb-1   mb-4">
+                            <p class="flex gap-2 items-center  font-medium text-[16px]"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22.5C6.21 22.5 1.5 17.79 1.5 12C1.5 6.21 6.21 1.5 12 1.5C17.79 1.5 22.5 6.21 22.5 12C22.5 17.79 17.79 22.5 12 22.5ZM12 3C7.035 3 3 7.035 3 12C3 16.965 7.035 21 12 21C16.965 21 21 16.965 21 12C21 7.035 16.965 3 12 3Z"
+                                        fill="#212121" />
+                                    <path
+                                        d="M15 15.75C14.865 15.75 14.73 15.72 14.61 15.645L10.86 13.395C10.7489 13.3283 10.6572 13.2336 10.5941 13.1204C10.5309 13.0073 10.4985 12.8796 10.5 12.75V6.75C10.5 6.33 10.83 6 11.25 6C11.67 6 12 6.33 12 6.75V12.33L15.39 14.355C15.5296 14.4406 15.6375 14.5694 15.6974 14.7218C15.7573 14.8742 15.7658 15.042 15.7217 15.1997C15.6776 15.3575 15.5833 15.4965 15.453 15.5958C15.3228 15.6951 15.1638 15.7492 15 15.75Z"
+                                        fill="#212121" />
+                                </svg>Öffnungszeiten</p>
+
+                            <a href="#" class="flex items-center gap-1 text-[#FF4545]">Verkauf<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M3.50001 4.58398L7.00001 8.08398L10.5 4.58398L11.6667 5.75065L7.00001 10.4173L2.33334 5.75065L3.50001 4.58398Z"
+                                        fill="#FF4545" />
+                                </svg></a>
+                        </div>
+
+                        <div class="md:flex gap-11  ">
+                            <div class="flex gap-3 mb-4 md:mb-0">
+                                <ul class="">
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Montag </li>
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Dienstag </li>
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Mittwoch </li>
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Donnerstag </li>
+                                </ul>
+
+                                <ul class="">
+                                    <li class=" w-[90px] text-[14px]">09:00 - 18:00 </li>
+                                    <li class=" w-[90px] text-[14px]">09:00 - 18:00 </li>
+                                    <li class=" w-[90px] text-[14px]">09:00 - 18:00 </li>
+                                    <li class=" w-[90px] text-[14px]">09:00 - 18:00 </li>
+                                </ul>
+                            </div>
+
+                            <div class="flex gap-3">
+                                <ul class="">
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Freitag </li>
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Samstag </li>
+                                    <li class="flex gap-3 w-[73px] text-[14px]">Sonntag </li>
+                                </ul>
+
+                                <ul class="">
+                                    <li class=" w-[90px] text-[14px]">09:00 - 18:00</li>
+                                    <li class=" w-[90px] text-[14px]">09:00 - 17:00</li>
+                                    <li class=" w-[90px] text-[14px]">Geschlossen</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="mx-auto flex pb-[98px] max-w-[1918px] ">
+        <img src="./img/Peugoet.img/slider.png" alt="">
+
+    </section>
+
+
+
+    <style>
+        .qalin {
+            font-weight: 600;
+            font-size: 16px;
+        }
+    </style>
+
+    <section class="pb-7   sm:pb-[107px]">
+        <div class="max-w-[1440px] mx-auto px-5">
+
+            <ul class="sm:flex gap-8 border-b-2 mb-28 border-[#B9B7B7]">
+                <li class="qalin pb-3 border-b-2 border-[#FF5454] text-center sm:text-left">Allgemeine Anfrage</li>
+                <li class="text-[16px] pb-3 border-b-2 border-[#B9B7B7] sm:border-none text-center sm:text-left">Verkauf
+                    Anfrage</li>
+                <li class="text-[16px] pb-3 text-center sm:text-left">Service Anfrage</li>
+            </ul>
+
+            <div class="xl:pl-72 pl-0">
+                <div class="max-w-[757px]">
+                    <h2 class="mb-8 font-semibold text-2xl">Allgemeine Anfrage stellen</h2>
+                    <p class="font-normal text-[16px] mb-8">Wenn Sie sich nicht ganz sicher sind, was Sie suchen, oder
+                        wenn
+                        Sie eine allgemeine Anfrage an uns richten möchten, steht Ihnen unser Team gerne zur Verfügung.
+                    </p>
+                </div>
+
+                <div class="md:flex gap-8 mb-2">
+                    <ul class="max-w-[381px] mb-3 sm:mb-0 mx-auto sm:mx-0">
+                        <!-- Wie möchten Sie kontaktiert werden? -->
+                        <li class="px-4 py-4 border-solid border-2 border-[#E0E0E0] rounded-md mb-3">
+                            <h2 class="flex items-center gap-11 font-normal justify-center text-[16px] text-[#BDBDBD]">
+                                Wie
+                                möchten Sie kontaktiert werden?<svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                    height="20" viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.99998 5.83398L9.99998 10.834L15 5.83398L16.6666 7.50065L9.99998 14.1673L3.33331 7.50065L4.99998 5.83398Z"
+                                        fill="#212121" fill-opacity="0.8" />
+                                </svg></h2>
+                        </li>
+                        <!-- Vor- und Nachname -->
+                        <li class="px-4 py-4 border-solid border-2 border-[#E0E0E0] rounded-md mb-3 ">
+                            <input type="text" class="outline-none border-none" placeholder="Vor- und Nachname">
+                        </li>
+                        <!-- Email Addresse * -->
+                        <li class="px-4 py-4 border-solid border-2 border-[#E0E0E0] rounded-md mb-3">
+                            <input type="email" class="outline-none border-none" placeholder="Email Addresse *">
+                        </li>
+                        <!-- Telefonnummer * -->
+                        <li class="px-4 py-4 border-solid border-2 border-[#E0E0E0] rounded-md ">
+                            <input type="tel" class="outline-none border-none" placeholder="Telefonnummer *">
+                        </li>
+                    </ul>
+
+
+                    <textarea placeholder="Ihre Nachricht" name="" id="" cols="30" rows="10"
+                        class="w-full border-solid border-2 border-[#E0E0E0] rounded-md sm:w-[325px] pt-4 pl-4 mx-auto sm:mx-0 flex"></textarea>
+                </div>
+
+                <div class="max-w-[737px]">
+                    <img src="./img/robot test.png" alt="" class="max-w-[250px] mb-6">
+                    <p class="mb-6 flex items-center gap-2 font-normal text-[16px]"><input type="checkbox">Please click
+                        here
+                        if you would like advance notice of offers and special events.</p>
+                    <p class="font-normal text-[10px] mb-6">We will use this information to contact you about your
+                        chosen vehicle. We will also retain
+                        it in case you contact us in the future, to obtain feedback from you and to contact you about
+                        other
+                        offers and services provided by our group that may be of interest to you. <br><br>
+
+                        By providing your details you consent to this and to us contacting you by the methods of contact
+                        that you have given above. You can tell us at any time if you don't want us to contact you.
+                        <br><br>
+
+                        For more details on how we use your information please see our Privacy Policy (shown at the
+                        bottom
+                        of each web page). <br><br>
+
+                        * Denotes a Mandatory field.
+                    </p>
+                    <button
+                        class="px-[54px] py-3 bg-[#EE6058] rounded-md font-semibold text-[18px] text-white mx-auto flex sm:mx-0">Submit</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class=" bg-[#FAFAFA]">
+        <div class="max-w-[1400px] px-5 mx-auto sm:pt-20 sm:pb-20 ">
+            <h2 class="text-center font-bold mb-10 sm:mb-16 text-3xl sm:text-4xl ">Looking for a Citroen dealer in Burton?</h2>
+
+            <div class="xl:flex flex-row-reverse gap-4">
+                 <div class="max-w-[492px] h-[248px] overflow-hidden mx-auto">
+                    <img class="object-cover flex mx-auto mb-4 sm:mb-0" src="./img/video.png" alt="">
+                </div>
+
+                <div class="">
+                    <p class="font-normal text-[16px] max-w-[891px] mb-5">Looking for a new car near Burton? Want to
+                        choose from a range of options,
+                        <span class="text-[#FF3636]">new Citroen</span> and <span class="text-[#FF3636]">used
+                            Citroen</span>, with a variety of <span class="text-[#FF3636]">Citroen aftersales</span>
+                        options? Citroen Burton can help you out. Supplying an extensive stock of some of the newest
+                        Citroen models to Burton, Newhall, Anslow, Ashby-de-la-Zouch, Ticknall, Tutbury, and further.
+                    </p>
+
+                    <p class="font-normal text-[16px] max-w-[891px]">We have the <span class="text-[#FF3636]">new
+                            Citroen C1, new Citroen Berlingo Multipsace</span> and <span class="text-[#FF3636]">new
+                            Citroen C3</span>, you need look no further for a new Citroen in the Burton area. We also
+                        stock a regularly updated fleet of used Citroen models, all top quality and well maintained.
+                        Plus, with payment and financial options to suit a host of budgets, anyone should be able to
+                        drive away from us with the car that's right for them.</p>
+                    <p class="font-normal text-[16px] max-w-[891px] flex-wrap">You can easily find us on the A5121, just
+                        north of Branston. We're easy to get to from Church Gresley, Walton-on-
+                        Trent, Tatenhill, Stenson, Kings Newton and the wider Staffordshire area, and can supply to most
+                        locations near
+                        Burton too. We </p>
+                </div>
+               
+            </div>
+            <p class="font-normal text-[16px]  flex-wrap mb-5">
+                don't only offer new and used Citroen, as we also have the facilities to offer
+                        extensive servicing, including MOT, Service planning, and spare parts purchase. Our trained
+                        technicians are specialists in Citroen, and will be happy to talk you through exactly what your
+                        car needs to stay running and healthy.
+            </p>
+
+            <p class="font-normal text-[16px]  flex-wrap mb-5">
+                We're proud of the consistent and top quality level of customer service we have, and if you have any questions about any of the services we offer, one of our knowledgeable, friendly and attentive members of staff will be happy to help you out. So if you're looking for a new or used Citroen or would like to book an MOT, whether you're in Hatton, Fauld, Anslow, or Needwood, then drop into Citroen Burton today. Alternatively, just give our branch a call and one of the team will help you out, or you can always book an MOT online. We hope to help you find a Citroen today.
+            </p>
+
+
+        </div>
+    </section>
+
+
+    <section class="">
+        <div class="max-w-[1448px] mx-auto px-5">
+            <h2 class="mb-9 font-bold text-3xl sm:text-4xl text-center">Nützliche Links</h2>
+            <ul class="mb-4 sm:mb-16 xl:flex gap-2">
+                <li
+                    class="mx-auto mb-4 xl:mb-0 xl:mx-0 flex rounded-md gap-44 px-3 py-4 items-center justify-between max-w-[356px] border-2 border-[#E0E0E0] cursor-pointer">
+                    Citroen New Cars<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                        fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.00001 5.83398L10 10.834L15 5.83398L16.6667 7.50065L10 14.1673L3.33334 7.50065L5.00001 5.83398Z"
+                            fill="#212121" fill-opacity="0.8" />
+                    </svg></li>
+
+                <li
+                    class="mx-auto mb-4 xl:mb-0 xl:mx-0 flex rounded-md gap-44 px-3 py-4 items-center justify-between max-w-[356px] border-2 border-[#E0E0E0] cursor-pointer">
+                    Citroen Used Cars<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                        fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.00001 5.83398L10 10.834L15 5.83398L16.6667 7.50065L10 14.1673L3.33334 7.50065L5.00001 5.83398Z"
+                            fill="#212121" fill-opacity="0.8" />
+                    </svg></li>
+
+                <li
+                    class="mx-auto mb-4 xl:mb-0 xl:mx-0 flex rounded-md gap-44 px-3 py-4 items-center justify-between max-w-[356px] border-2 border-[#E0E0E0] cursor-pointer">
+                    Local Services<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                        fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.00001 5.83398L10 10.834L15 5.83398L16.6667 7.50065L10 14.1673L3.33334 7.50065L5.00001 5.83398Z"
+                            fill="#212121" fill-opacity="0.8" />
+                    </svg></li>
+
+                <li
+                    class="mx-auto mb-4 xl:mb-0 xl:mx-0 flex rounded-md gap-44 px-3 py-4 items-center justify-between max-w-[356px] border-2 border-[#E0E0E0] cursor-pointer">
+                    Citroen Used Vans<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                        fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.00001 5.83398L10 10.834L15 5.83398L16.6667 7.50065L10 14.1673L3.33334 7.50065L5.00001 5.83398Z"
+                            fill="#212121" fill-opacity="0.8" />
+                    </svg></li>
+            </ul>
+
+            <p class="font-normal text-[16px] mb-11">
+                *Home delivery on used cars is free if you live under 30 miles from the Bristol Street or Macklin Motors
+                dealership where the vehicle is purchased. Any subsequent delivery cost is calculated at an additional
+                £1 per mile over and above 30 miles.
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="pb-7">
+        <div class="max-w-[1434px] mx-auto sm:flex justify-between items-center border-t-[1px] border-t-[#010101] px-5">
+            <img src="./blockimg/logo (2).png" alt="" class="mx-auto sm:mx-0">
+            <ul class="flex gap-8 mx-auto sm:mx-0 justify-center mb-2">
+                <!-- TWITTER -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M29.9467 8.00004C28.92 8.46671 27.8133 8.77337 26.6667 8.92004C27.84 8.21337 28.7467 7.09337 29.1733 5.74671C28.0667 6.41337 26.84 6.88004 25.5467 7.14671C24.4933 6.00004 23.0133 5.33337 21.3333 5.33337C18.2 5.33337 15.64 7.89337 15.64 11.0534C15.64 11.5067 15.6933 11.9467 15.7867 12.36C11.04 12.12 6.81334 9.84004 4.00001 6.38671C3.50668 7.22671 3.22668 8.21337 3.22668 9.25337C3.22668 11.24 4.22668 13 5.77334 14C4.82668 14 3.94668 13.7334 3.17334 13.3334V13.3734C3.17334 16.1467 5.14668 18.4667 7.76001 18.9867C6.92098 19.2163 6.04014 19.2483 5.18668 19.08C5.54882 20.2167 6.25806 21.2113 7.2147 21.9239C8.17134 22.6366 9.32727 23.0316 10.52 23.0534C8.49818 24.654 5.99201 25.5191 3.41334 25.5067C2.96001 25.5067 2.50668 25.48 2.05334 25.4267C4.58668 27.0534 7.60001 28 10.8267 28C21.3333 28 27.1067 19.28 27.1067 11.72C27.1067 11.4667 27.1067 11.2267 27.0933 10.9734C28.2133 10.1734 29.1733 9.16004 29.9467 8.00004Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- FACEBOOK -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M18.6666 18H22L23.3333 12.6666H18.6666V9.99996C18.6666 8.62663 18.6666 7.33329 21.3333 7.33329H23.3333V2.85329C22.8986 2.79596 21.2573 2.66663 19.524 2.66663C15.904 2.66663 13.3333 4.87596 13.3333 8.93329V12.6666H9.33331V18H13.3333V29.3333H18.6666V18Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- LINKEDIN -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.572 11.9586H17.524V14.4253C18.2374 13.0066 20.0667 11.732 22.8147 11.732C28.0827 11.732 29.3334 14.556 29.3334 19.7373V29.3333H24V20.9173C24 17.9666 23.2867 16.3026 21.4707 16.3026C18.952 16.3026 17.9054 18.096 17.9054 20.916V29.3333H12.572V11.9586ZM3.42669 29.1066H8.76002V11.732H3.42669V29.1066ZM9.52402 6.06663C9.52422 6.51366 9.43556 6.95627 9.2632 7.36874C9.09084 7.78121 8.83822 8.15531 8.52002 8.46929C7.87522 9.11012 7.00243 9.46883 6.09335 9.46663C5.18587 9.46602 4.3151 9.10822 3.66935 8.47063C3.3523 8.15558 3.10053 7.78106 2.92848 7.36853C2.75642 6.95601 2.66746 6.51359 2.66669 6.06663C2.66669 5.16396 3.02669 4.29996 3.67069 3.66263C4.31587 3.02417 5.18701 2.66623 6.09469 2.66663C7.00402 2.66663 7.87602 3.02529 8.52002 3.66263C9.16269 4.29996 9.52402 5.16396 9.52402 6.06663Z"
+                                fill="#212121" />
+                        </svg></a></li>
+                <!-- INSTAGRAM -->
+                <li class=""><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M16 11.34C13.42 11.34 11.34 13.44 11.34 16C11.34 18.56 13.44 20.66 16 20.66C18.56 20.66 20.66 18.56 20.66 16C20.66 13.44 18.56 11.34 16 11.34ZM30 16C30 14.06 30 12.16 29.9 10.22C29.8 7.98 29.28 5.98 27.64 4.36C26 2.72 24.02 2.2 21.78 2.1C19.84 2 17.94 2 16 2C14.06 2 12.16 2 10.22 2.1C7.98 2.2 5.98 2.72 4.36 4.36C2.72 6 2.2 7.98 2.1 10.22C2 12.16 2 14.06 2 16C2 17.94 2 19.84 2.1 21.78C2.2 24.02 2.72 26.02 4.36 27.64C6 29.28 7.98 29.8 10.22 29.9C12.16 30 14.06 30 16 30C17.94 30 19.84 30 21.78 29.9C24.02 29.8 26.02 29.28 27.64 27.64C29.28 26 29.8 24.02 29.9 21.78C30.02 19.86 30 17.94 30 16ZM16 23.18C12.02 23.18 8.82 19.98 8.82 16C8.82 12.02 12.02 8.82 16 8.82C19.98 8.82 23.18 12.02 23.18 16C23.18 19.98 19.98 23.18 16 23.18ZM23.48 10.2C22.56 10.2 21.8 9.46 21.8 8.52C21.8 7.58 22.54 6.84 23.48 6.84C24.42 6.84 25.16 7.58 25.16 8.52C25.1651 8.73907 25.1251 8.95685 25.0425 9.15983C24.9599 9.36281 24.8365 9.54667 24.68 9.7C24.5267 9.85655 24.3428 9.97993 24.1398 10.0625C23.9368 10.1451 23.7191 10.1851 23.5 10.18L23.48 10.2Z"
+                                fill="#212121" />
+                        </svg></a></li>
+            </ul>
+        </div>
+
+        <div class="sm:flex justify-between max-w-[1434px] mx-auto px-5">
+            <p class="text-[#212121] font-medium text-[16px] ml-7 text-center">© 2023 Auto Schrader</p>
+            <p class="text-[#212121] font-medium text-[16px] text-center">Advanced Automotive Dealer Websites by
+                Dealer
+                Inspire</p>
+            <ul class="flex gap-5 sm:mx-0 mx-auto justify-center">
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap</li>
+                <li class="text-[#212121] font-medium text-[16px]">Privacy Policy</li>
+                <li class="text-[#212121] font-medium text-[16px]">Sitemap XML</li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
