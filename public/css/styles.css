@@ -621,6 +621,9 @@ video {
 .mb-\[14px\] {
   margin-bottom: 14px;
 }
+.mb-\[17px\] {
+  margin-bottom: 17px;
+}
 .mb-\[1px\] {
   margin-bottom: 1px;
 }
@@ -669,6 +672,9 @@ video {
 .mb-\[43px\] {
   margin-bottom: 43px;
 }
+.mb-\[49px\] {
+  margin-bottom: 49px;
+}
 .mb-\[50px\] {
   margin-bottom: 50px;
 }
@@ -708,6 +714,9 @@ video {
 .mb-\[89px\] {
   margin-bottom: 89px;
 }
+.mb-\[9px\] {
+  margin-bottom: 9px;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -741,6 +750,18 @@ video {
 .mt-\[88px\] {
   margin-top: 88px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+.mb-\[148px\] {
+  margin-bottom: 148px;
+}
+>>>>>>> 63dbc6ca666a50dfd46157d913dc472d8d260464
+>>>>>>> 179413ffdefa188b5a3e35dab8a0b473713d68d8
+>>>>>>> 7044555026bb85060c5c716fcdf7890714053721
 .block {
   display: block;
 }
@@ -932,6 +953,9 @@ video {
 }
 .max-w-\[1329px\] {
   max-width: 1329px;
+}
+.max-w-\[1334px\] {
+  max-width: 1334px;
 }
 .max-w-\[1380px\] {
   max-width: 1380px;
@@ -1188,6 +1212,9 @@ video {
 .gap-\[14px\] {
   gap: 14px;
 }
+.gap-\[150px\] {
+  gap: 150px;
+}
 .gap-\[17px\] {
   gap: 17px;
 }
@@ -1206,6 +1233,28 @@ video {
 .gap-\[597px\] {
   gap: 597px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.gap-\[97px\] {
+  gap: 97px;
+}
+.gap-\[1px\] {
+  gap: 1px;
+}
+.gap-\[177px\] {
+  gap: 177px;
+}
+.gap-\[176px\] {
+  gap: 176px;
+}
+.gap-\[197px\] {
+  gap: 197px;
+}
+=======
+>>>>>>> 63dbc6ca666a50dfd46157d913dc472d8d260464
+>>>>>>> 179413ffdefa188b5a3e35dab8a0b473713d68d8
+>>>>>>> 7044555026bb85060c5c716fcdf7890714053721
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1756,9 +1805,12 @@ video {
 .pt-\[93px\] {
   padding-top: 93px;
 }
+<<<<<<< HEAD
 .pb-\[201px\] {
   padding-bottom: 201px;
 }
+=======
+>>>>>>> 7044555026bb85060c5c716fcdf7890714053721
 .text-center {
   text-align: center;
 }
@@ -1957,10 +2009,17 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7044555026bb85060c5c716fcdf7890714053721
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+>>>>>>> 179413ffdefa188b5a3e35dab8a0b473713d68d8
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
@@ -2462,6 +2521,10 @@ video {
 
   .md\:max-w-\[372px\] {
     max-width: 372px;
+  }
+
+  .md\:max-w-\[440px\] {
+    max-width: 440px;
   }
 
   .md\:max-w-\[470px\] {
