@@ -1149,6 +1149,12 @@ video {
 .max-w-\[988px\] {
   max-width: 988px;
 }
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[1315px\] {
+  max-width: 1315px;
+}
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1851,6 +1857,9 @@ video {
 }
 .pt-\[50px\] {
   padding-top: 50px;
+}
+.pt-\[166px\] {
+  padding-top: 166px;
 }
 .text-center {
   text-align: center;
