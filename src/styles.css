@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lii:hover .divcha{
+    display: block;
+}
+
+.divcha{
+display: none;
+}
+
+
+.lii-2:hover .divcha-2{
+    display: block;
+}
+
+.divcha-2{
+display:none;
+}
+
+
+.lii-3:hover .divcha-3{
+    display: block;
+}
+
+.divcha-3{
+display: none;
+}
