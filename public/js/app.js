@@ -8,3 +8,10 @@ nikk.forEach(function (item , index){
     item.classList.add('active')
    })
 })
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
