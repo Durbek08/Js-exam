@@ -2,28 +2,160 @@
 @tailwind components;
 @tailwind utilities;
 
-.lii:hover .divcha{
+.lii:hover .divcha {
     display: block;
 }
 
-.divcha{
-display: none;
+.divcha {
+    display: none;
 }
 
 
-.lii-2:hover .divcha-2{
+.lii-2:hover .divcha-2 {
     display: block;
 }
 
-.divcha-2{
-display:none;
+.divcha-2 {
+    display: none;
 }
 
 
-.lii-3:hover .divcha-3{
+.lii-3:hover .divcha-3 {
     display: block;
 }
 
-.divcha-3{
-display: none;
+.divcha-3 {
+    display: none;
+}
+
+
+
+.bosilish:hover .hoverrr {
+    color: #FF6060;
+}
+
+.qaytarilish {
+    display: none;
+
+}
+
+.active {
+    display: block;
+    transition: all 0.3s;
+}
+
+.rotate {
+    transition: all 0.3s;
+}
+
+.rotatee {
+    transform: rotate(180deg);
+}
+
+.yonboshh {
+    border: 1px solid #FF6060;
+    transition: all 0.2s;
+
+}
+
+
+
+/* 2 */
+.bosilishh:hover .hoverrrr {
+    color: #FF6060;
+}
+
+.qaytarilishh {
+    display: none;
+
+}
+
+.activee {
+    display: block;
+    transition: all 0.3s;
+}
+
+.rotateee {
+    transition: all 0.3s;
+}
+
+.rotateeee {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.yonboshhhhh {
+    border: 1px solid #FF6060;
+    transition: all 0.2s;
+
+}
+
+
+/* 3 */
+.bosilishhh:hover .hoverrrrr {
+    color: #FF6060;
+    transition: all 0.2s;
+}
+
+.qaytarilishhh {
+    display: none;
+}
+
+.activeee {
+    display: block;
+    transition: all 0.3s;
+}
+
+.rotateeeee {
+    transition: all 0.3s;
+}
+
+.rotateeeeee {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.yonboshhhhhhh {
+    border: 1px solid #FF6060;
+}
+
+
+
+
+
+
+
+.hamburgersection {
+    display: none;
+}
+
+.hamburger {}
+
+.yoqolish{
+    display: none;
+}
+
+.hamburgerex {
+    display: none;
+}
+.paydobolishsda{
+    display: flex;
+}
+.yoqolishga{
+    display: flex;
+}
+
+.bolmoq {
+    display: block;
+}
+
+
+.nik{
+}
+
+.nik.nikkita{
+    border-bottom: 2px solid #FF5454;
+}
+.bbss{
+    box-sizing: border-box;
 }
