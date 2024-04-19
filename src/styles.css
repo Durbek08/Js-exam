@@ -36,7 +36,7 @@
 
 .qaytarilish {
     display: none;
-
+   
 }
 
 .active {
@@ -131,17 +131,19 @@
 
 .hamburger {}
 
-.yoqolish{
+.yoqolish {
     display: none;
 }
 
 .hamburgerex {
     display: none;
 }
-.paydobolishsda{
+
+.paydobolishsda {
     display: flex;
 }
-.yoqolishga{
+
+.yoqolishga {
     display: flex;
 }
 
@@ -150,12 +152,12 @@
 }
 
 
-.nik{
-}
+.nik {}
 
-.nik.nikkita{
+.nik.nikkita {
     border-bottom: 2px solid #FF5454;
 }
-.bbss{
+
+.bbss {
     box-sizing: border-box;
 }
