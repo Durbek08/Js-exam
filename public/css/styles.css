@@ -555,6 +555,10 @@ video {
   margin-top: auto;
   margin-bottom: auto;
 }
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1278,9 +1282,6 @@ video {
 .gap-\[597px\] {
   gap: 597px;
 }
-.overflow-auto {
-  overflow: auto;
-}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1669,6 +1670,14 @@ video {
 .py-\[26px\] {
   padding-top: 26px;
   padding-bottom: 26px;
+}
+.px-\[51px\] {
+  padding-left: 51px;
+  padding-right: 51px;
+}
+.px-\[56px\] {
+  padding-left: 56px;
+  padding-right: 56px;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -2129,7 +2138,7 @@ video {
 
 .qaytarilish {
     display: none;
-
+   
 }
 
 .active {
@@ -2224,17 +2233,19 @@ video {
 
 .hamburger {}
 
-.yoqolish{
+.yoqolish {
     display: none;
 }
 
 .hamburgerex {
     display: none;
 }
-.paydobolishsda{
+
+.paydobolishsda {
     display: flex;
 }
-.yoqolishga{
+
+.yoqolishga {
     display: flex;
 }
 
@@ -2243,19 +2254,21 @@ video {
 }
 
 
-.nik{
-}
+.nik {}
 
-.nik.nikkita{
+.nik.nikkita {
     border-bottom: 2px solid #FF5454;
 }
-.bbss{
+
+.bbss {
     box-sizing: border-box;
 }
+
 .hover\:text-\[\#FF6060\]:hover {
   --tw-text-opacity: 1;
   color: rgb(255 96 96 / var(--tw-text-opacity));
 }
+
 @media (min-width: 640px) {
 
   .sm\:top-\[130px\] {
@@ -2489,6 +2502,10 @@ video {
 
   .sm\:w-\[497px\] {
     width: 497px;
+  }
+
+  .sm\:w-0 {
+    width: 0px;
   }
 
   .sm\:max-w-\[145px\] {
@@ -2745,6 +2762,7 @@ video {
     line-height: 1.75rem;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:mx-0 {
@@ -2870,6 +2888,7 @@ video {
     font-size: 40px;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:m-0 {
@@ -2920,6 +2939,7 @@ video {
     font-size: 40px;
   }
 }
+
 @media (min-width: 1280px) {
 
   .xl\:m-0 {
@@ -3121,6 +3141,7 @@ video {
     font-size: 52px;
   }
 }
+
 @media (min-width: 1536px) {
 
   @media (min-width: 1280px) {
