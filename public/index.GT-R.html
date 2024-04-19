@@ -10,226 +10,443 @@
 
 <body>
 
-       <!-- HEADER -->
-    <header class="sticky top-0 z-[2111]">
+      <!-- HEADER -->
+ <header class="sticky top-0 z-[2111]">
 
-        <!-- HEADER-CONTAINER-top -->
-        <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px] bg-white">
+    <!-- HEADER-CONTAINER-top -->
+    <div class="flex max-w-[1880px] mx-auto justify-between px-5 py-[15px] bg-white">
 
-            <!-- LOCATION -->
-            <div class="flex items-center cursor-pointer gap-2">
-                <!-- LOCATION-SVG -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
-                    <path
-                        d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
-                        fill="#323232" />
-                </svg>
-                <!-- LOCATION-TEXT -->
-                <p class="">Standorte</p>
-            </div>
-
-            <!-- POISK -->
-            <div class="flex items-center cursor-pointer gap-2">
-                <!-- POISK-SVG -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path
-                        d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
-                        stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <!-- POISK-TEXT -->
-                <p class="">Search</p>
-            </div>
-
+        <!-- LOCATION -->
+        <div class="flex items-center cursor-pointer gap-2">
+            <!-- LOCATION-SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22" fill="none">
+                <path
+                    d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9963 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54535 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75Z"
+                    fill="#323232" />
+            </svg>
+            <!-- LOCATION-TEXT -->
+            <p class="">Standorte</p>
         </div>
 
+        <!-- POISK -->
+        <div class="flex items-center cursor-pointer gap-2">
+            <!-- POISK-SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                    d="M21 21L15 15M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                    stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <!-- POISK-TEXT -->
+            <p class="">Search</p>
+        </div>
+
+    </div>
 
 
-        <!-- HEADER-CONTAINER-bottom -->
-        <div class="bg-[#363636] ">
-            <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
 
-                <a href="./index.html" class=""><img src="./blockimg/logo (2).png" alt=""
-                        class=" object-cover w-[200px] h-[90px]"></a>
-                <ul class="xl:flex hidden gap-11 ">
-                    <li class="lii"><button
-                            class="dsds text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">
-                            Auto finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10"
-                                viewBox="0 0 13 10" fill="none">
-                                <path
-                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
-                                    fill="white" />
-                            </svg></button>
-                        <!-- HOVER -->
-                        <div class="absolute z-[1111] pt-4 right-[260px]">
-                            <div
-                                class="divcha  max-w-[627px] mx-auto h-[293px] pt-7 pb-[30px] px-[30px] bg-[#FCFCFC] rounded-xl   ">
-                                <h3 class="font-semibold text-base text-[#212121] mb-2">Wir verkaufen</h3>
-                                <ul class="flex items-center gap-3 pb-4 border-b mb-[17px]">
-                                    <li class=""><a href="./index.html"
-                                            class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Home</a>
-                                    </li>
-                                    <li class=""><a href="./index.Gebrauchwagen.html"
-                                            class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Gebrauchwagen</a>
-                                    </li>
-                                    <li class=""><a href="./index.Neuwagen.html"
-                                            class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Neuwagen</a>
-                                    </li>
-                                    <li class=""><a href="./index.Vorführwagen.html"
-                                            class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Vorführwagen</a>
-                                    </li>
-                                    <li class=""><a href="./index.Nutzfahrzeuge.html"
-                                            class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Nutzfahrzeuge</a>
-                                    </li>
-                                </ul>
-                                <div class="">
-                                    <h3 class="font-semibold text-base text-[#212121] mb-[10px]">Unsere Hersteller</h3>
-                                    <div class="flex items-start gap-36">
-                                        <ul class="">
-                                            <li class=""><a href="./index.Elektroautos.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Elektroautos</a>
-                                            </li>
-                                            <li class=""><a href="./index.MG.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">MG</a></li>
-                                            <li class=""><a href="./index.Citroen.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Citroen</a>
-                                            </li>
-                                            <li class=""><a href="./index.Mazda.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Mazda</a></li>
-                                            <li class=""><a href="./index.Nissan.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Nissan</a></li>
-                                        </ul>
+    <!-- HEADER-CONTAINER-bottom -->
+    <div class="bg-[#363636] ">
+        <div class="flex items-center justify-between max-w-[1440px] mx-auto px-5">
 
-                                        <ul class="">
-                                            <li class=""><a href="./index.Peugeot.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Peugeot</a></li>
-                                            <li class=""><a href="./index.Mitsubishi.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Mitsubishi</a></li>
-                                            <li class=""><a href="./index.Suzuki.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Suzuki</a>
-                                            </li>
-                                            <li class=""><a href="./index.Ape.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Ape</a></li>
+            <a href="./index.html" class=""><img src="./blockimg/logo (2).png" alt=""
+                    class=" object-cover w-[200px] h-[90px]"></a>
+            <ul class="xl:flex hidden gap-11 ">
+                <li class="lii"><button
+                        class="dsds text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2">
+                        Auto finden <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10"
+                            viewBox="0 0 13 10" fill="none">
+                            <path
+                                d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                fill="white" />
+                        </svg></button>
+                    <!-- HOVER -->
+                    <div class="absolute z-[1111] pt-4 right-[260px]">
+                        <div
+                            class="divcha  max-w-[627px] mx-auto h-[293px] pt-7 pb-[30px] px-[30px] bg-[#FCFCFC] rounded-xl   ">
+                            <h3 class="font-semibold text-base text-[#212121] mb-2">Wir verkaufen</h3>
+                            <ul class="flex items-center gap-3 pb-4 border-b mb-[17px]">
+                                <li class=""><a href="./index.html"
+                                        class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Home</a>
+                                </li>
+                                <li class=""><a href="./index.Gebrauchwagen.html"
+                                        class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Gebrauchwagen</a>
+                                </li>
+                                <li class=""><a href="./index.Neuwagen.html"
+                                        class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Neuwagen</a>
+                                </li>
+                                <li class=""><a href="./index.Vorführwagen.html"
+                                        class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Vorführwagen</a>
+                                </li>
+                                <li class=""><a href="./index.Nutzfahrzeuge.html"
+                                        class="font-normal text-sm text-[#5E5E5E] hover:text-[#FF6060]">Nutzfahrzeuge</a>
+                                </li>
+                            </ul>
+                            <div class="">
+                                <h3 class="font-semibold text-base text-[#212121] mb-[10px]">Unsere Hersteller</h3>
+                                <div class="flex items-start gap-36">
+                                    <ul class="">
+                                        <li class=""><a href="./index.Elektroautos.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Elektroautos</a>
+                                        </li>
+                                        <li class=""><a href="./index.MG.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">MG</a></li>
+                                        <li class=""><a href="./index.Citroen.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Citroen</a>
+                                        </li>
+                                        <li class=""><a href="./index.Mazda.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Mazda</a></li>
+                                        <li class=""><a href="./index.Nissan.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Nissan</a></li>
+                                    </ul>
 
-                                            <li class=""><a href="./index.GT-R.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">GT-R</a></li>
-                                        </ul>
-                                    </div>
+                                    <ul class="">
+                                        <li class=""><a href="./index.Peugeot.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Peugeot</a></li>
+                                        <li class=""><a href="./index.Mitsubishi.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Mitsubishi</a></li>
+                                        <li class=""><a href="./index.Suzuki.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Suzuki</a>
+                                        </li>
+                                        <li class=""><a href="./index.Ape.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">Ape</a></li>
+
+                                        <li class=""><a href="./index.GT-R.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-3 hover:text-[#FF6060]">GT-R</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <!-- HOVER -->
-                    </li>
+                    </div>
+                    <!-- HOVER -->
+                </li>
 
 
 
-                    <li class="relative"><a href=""
-                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Auto
-                            verkaufen</a></li>
+                <li class="relative"><a href=""
+                        class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Auto
+                        verkaufen</a></li>
 
-                    <li class="lii-2"><button
-                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Service<svg
-                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
-                                fill="none">
-                                <path
-                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
-                                    fill="white" />
-                            </svg></button>
-                        <!-- Hover-2 -->
-                        <div class="absolute z-[1111] ">
-                            <div class="divcha-2 mb-10 absolute pt-4 -left-16">
-                                <ul
-                                    class="max-w-[218px] bg-[#FCFCFC]  mx-auto  rounded-xl text-center py-[26px] px-[42px] ">
-                                    <li class=""><a href="./index.service.html"
-                                            class="font-semibold text-base text-[#212121] mb-5 hover:text-[#FF6060]">Service</a></li>
-                                    <li class=""><a href="./index.bookaappointment.html"
-                                            class="font-semibold text-base text-[#212121] mb-5 hover:text-[#FF6060]">book a appointment</a>
-                                    </li>
+                <li class="lii-2"><button
+                        class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Service<svg
+                            xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                            fill="none">
+                            <path
+                                d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                fill="white" />
+                        </svg></button>
+                    <!-- Hover-2 -->
+                    <div class="absolute z-[1111] ">
+                        <div class="divcha-2 mb-10 absolute pt-4 -left-16">
+                            <ul
+                                class="max-w-[218px] bg-[#FCFCFC]  mx-auto  rounded-xl text-center py-[26px] px-[42px] ">
+                                <li class=""><a href="./index.service.html"
+                                        class="font-semibold text-base text-[#212121] mb-5 hover:text-[#FF6060]">Service</a></li>
+                                <li class=""><a href="./index.bookaappointment.html"
+                                        class="font-semibold text-base text-[#212121] mb-5 hover:text-[#FF6060]">book a appointment</a>
+                                </li>
 
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
-                        <!-- Hover-2 -->
-                    </li>
+                    </div>
+                    <!-- Hover-2 -->
+                </li>
 
-                    <li class="relative lii-3"><button
-                            class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Mehr<svg
-                                xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
-                                fill="none">
-                                <path
-                                    d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
-                                    fill="white" />
-                            </svg></button>
-                        <!-- Hover-3 -->
-                        <div class="divcha-3 absolute pt-4 right-0 z-[1111]">
-                            <div class="max-w-[338px]  bg-[#FCFCFC]  z-[1111]  mx-auto b p-6 rounded-xl ">
-                                <div class="w-[293px]">
-                                    <div class="flex items-start gap-10 mb-4">
-                                        <ul class="">
-                                            <h3 class="font-semibold text-base text-[#212121] mb-2 ">Wir verkaufen</h3>
-                                            <li class=""><a href="./index.about us.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">about us</a></li>
-                                            <li class=""><a href="./index.career.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">career</a></li>
-                                            <li class=""><a href="./index.career detail.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">career detail</a>
-                                            </li>
-                                        </ul>
-
-                                        <div class="">
-                                            <h3 class="font-semibold text-base text-[#212121] mb-2 ">Produkte & Service
-                                            </h3>
-                                            <ul class="">
-                                                <li class=""><a href="./index.contactus.html"
-                                                        class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">contact us</a>
-                                                </li>
-                                                <li class=""><a href="./index.sell a car.html"
-                                                        class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">sell a car</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                <li class="relative lii-3"><button
+                        class="text-[20px] text-white hover:text-[#FF6060] flex items-center gap-2 ">Mehr<svg
+                            xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10"
+                            fill="none">
+                            <path
+                                d="M5.92716 8.15379C5.97303 8.20931 6.03441 8.2547 6.10601 8.28606C6.17761 8.31742 6.25728 8.3338 6.33816 8.3338C6.41905 8.3338 6.49872 8.31742 6.57032 8.28606C6.64192 8.2547 6.70329 8.20931 6.74916 8.15379L11.2492 2.73712C11.3013 2.67465 11.3318 2.60147 11.3375 2.52554C11.3432 2.44962 11.3238 2.37384 11.2814 2.30645C11.239 2.23907 11.1753 2.18264 11.0972 2.14331C11.019 2.10399 10.9295 2.08325 10.8382 2.08337H1.83816C1.74709 2.08369 1.65783 2.10469 1.58 2.14411C1.50218 2.18353 1.43872 2.23989 1.39645 2.30712C1.35418 2.37435 1.33471 2.44991 1.34012 2.52568C1.34553 2.60144 1.37562 2.67455 1.42716 2.73712L5.92716 8.15379Z"
+                                fill="white" />
+                        </svg></button>
+                    <!-- Hover-3 -->
+                    <div class="divcha-3 absolute pt-4 right-0 z-[1111]">
+                        <div class="max-w-[338px]  bg-[#FCFCFC]  z-[1111]  mx-auto b p-6 rounded-xl ">
+                            <div class="w-[293px]">
+                                <div class="flex items-start gap-10 mb-4">
+                                    <ul class="">
+                                        <h3 class="font-semibold text-base text-[#212121] mb-2 ">Wir verkaufen</h3>
+                                        <li class=""><a href="./index.about us.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">about us</a></li>
+                                        <li class=""><a href="./index.career.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">career</a></li>
+                                        <li class=""><a href="./index.career detail.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">career detail</a>
+                                        </li>
+                                    </ul>
 
                                     <div class="">
-                                        <h3 class="font-semibold text-base text-[#212121] ">Produkte & Service</h3>
+                                        <h3 class="font-semibold text-base text-[#212121] mb-2 ">Produkte & Service
+                                        </h3>
                                         <ul class="">
-                                            <li class=""><a href="./index.findadealer.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">find a dealer</a>
+                                            <li class=""><a href="./index.contactus.html"
+                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">contact us</a>
                                             </li>
-
-                                            <li class=""><a href="./index.dealership specific.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">dealership specific</a>
-                                            </li>
-
-                                            <li class=""><a href="./index.book a appointment.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">book a appointment</a>
-                                            </li>
-
-                                            <li class=""><a href="./index.car service.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">car service</a>
-                                            </li>
-
-                                            <li class=""><a href="./index.cardetails.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">car details</a>
+                                            <li class=""><a href="./index.sell a car.html"
+                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">sell a car</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
+
+                                <div class="">
+                                    <h3 class="font-semibold text-base text-[#212121] ">Produkte & Service</h3>
+                                    <ul class="">
+                                        <li class=""><a href="./index.findadealer.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">find a dealer</a>
+                                        </li>
+
+                                        <li class=""><a href="./index.dealership specific.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">dealership specific</a>
+                                        </li>
+
+                                        <li class=""><a href="./index.book a appointment.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">book a appointment</a>
+                                        </li>
+
+                                        <li class=""><a href="./index.car service.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">car service</a>
+                                        </li>
+
+                                        <li class=""><a href="./index.cardetails.html"
+                                                class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060]">car details</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <!-- Hover-3 -->
+                    </div>
+                    <!-- Hover-3 -->
+                </li>
+            </ul>
+
+            <button class="flex xl:hidden">
+                <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
+                    height="30px">
+                    <path
+                        d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
+                </svg>
+                <svg class="hamburgerex" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px"><g fill="#fa5252" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path transform="translate(24.00059,-9.94113) rotate(45.001)" d="M21.5,4.5h5.001v39h-5.001z"/><path transform="translate(57.94113,24.00474) rotate(135.008)" d="M21.5,4.5h5v39.001h-5z"/></g></g></svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<!-- HAMBURGER -->
+<section class="hamburgersection  w-full pb-[400px] bg-[#2C2C2C] pt-5 fixed  z-[2111]">
+    <div class="w-full mx-auto px-5   ">
+        <div class="p-1">
+            <div class="border yonbosh ">
+
+                <ul class="bosilish py-3 text-center   flex items-center justify-between px-2">
+                    <li class=" cursor-pointer">
+                        <h2 class="font-bold text-lg hoverrr text-white">Auto finden</h2>
                     </li>
+
+                    <svg class="rotate" width="50" height="10" viewBox="0 0 11 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.92723 6.1544C4.9731 6.20992 5.03447 6.25531 5.10607 6.28667C5.17767 6.31803 5.25734 6.33441 5.33823 6.33441C5.41911 6.33441 5.49878 6.31803 5.57038 6.28667C5.64198 6.25531 5.70336 6.20992 5.74923 6.1544L10.2492 0.737735C10.3013 0.675258 10.3319 0.602081 10.3375 0.526154C10.3432 0.450226 10.3238 0.374452 10.2815 0.307065C10.2391 0.239678 10.1754 0.183255 10.0972 0.143925C10.0191 0.104596 9.92952 0.0838651 9.83823 0.0839849H0.838225C0.747147 0.0842984 0.657894 0.105296 0.580066 0.144719C0.502237 0.184143 0.438777 0.240501 0.39651 0.307732C0.354243 0.374963 0.334768 0.450524 0.34018 0.526289C0.345592 0.602054 0.375686 0.675157 0.427225 0.737735L4.92723 6.1544Z"
+                            fill="white" />
+                    </svg>
+
                 </ul>
 
-                <button class="flex xl:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FA5252" viewBox="0 0 50 50" width="30px"
-                        height="30px">
-                        <path
-                            d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" />
-                    </svg>
-                </button>
+                <ul class="qaytarilish w-full">
+                    <!-- 1 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Home</a>
+                    </li>
+                    <!-- 2 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Gebrauchwagen.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Gebrauchwagen</a>
+                    </li>
+                    <!-- 3 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Neuwagen.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Neuwagen</a>
+                    </li>
+                    <!-- 4 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Vorführwagen.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Vorführwagen</a>
+                    </li>
+                    <!-- 5 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Nutzfahrzeuge.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Nutzfahrzeuge</a>
+                    </li>
+                    <!-- 6 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Elektroautos.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Elektroautos</a>
+                    </li>
+                    <!-- 7 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.MG.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">MG</a>
+                    </li>
+                    <!-- 8 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Citroen.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Citroen</a>
+                    </li>
+                    <!-- 9 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Mazda.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Mazda</a>
+                    </li>
+                    <!-- 10 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Nissan.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Nissan</a>
+                    </li>
+                    <!-- 11 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Peugeot.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Peugeot</a>
+                    </li>
+                    <!-- 12 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Mitsubishi.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Mitsubishi</a>
+                    </li>
+                    <!-- 13 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Suzuki.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Suzuki</a>
+                    </li>
+                    <!-- 14 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.Ape.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Ape</a>
+                    </li>
+                    <!-- 15 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="index.GT-R.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">GT-R</a>
+                    </li>
+                </ul>
             </div>
+            </ul>
         </div>
-    </header>
+
+        <!-- 2 -->
+        <div class="p-1">
+            <div class="border yonboshhhh">
+
+                <ul class="py-3 text-center hoverrrr bosilishh  flex items-center justify-between px-2">
+                    <li class="hoverrrr ">
+                        <h2 class="font-bold text-lg hoverrrr   text-white">Service</h2>
+                    </li>
+
+                    <svg class="rotateee" width="50" height="10" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.92723 6.1544C4.9731 6.20992 5.03447 6.25531 5.10607 6.28667C5.17767 6.31803 5.25734 6.33441 5.33823 6.33441C5.41911 6.33441 5.49878 6.31803 5.57038 6.28667C5.64198 6.25531 5.70336 6.20992 5.74923 6.1544L10.2492 0.737735C10.3013 0.675258 10.3319 0.602081 10.3375 0.526154C10.3432 0.450226 10.3238 0.374452 10.2815 0.307065C10.2391 0.239678 10.1754 0.183255 10.0972 0.143925C10.0191 0.104596 9.92952 0.0838651 9.83823 0.0839849H0.838225C0.747147 0.0842984 0.657894 0.105296 0.580066 0.144719C0.502237 0.184143 0.438777 0.240501 0.39651 0.307732C0.354243 0.374963 0.334768 0.450524 0.34018 0.526289C0.345592 0.602054 0.375686 0.675157 0.427225 0.737735L4.92723 6.1544Z"
+                            fill="white" />
+                    </svg>
+
+                </ul>
+
+                <ul class="qaytarilishh w-full">
+                    <!-- 1 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.service.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">Service</a>
+                    </li>
+                    <!-- 2 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.book a appointment.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">book a
+                            appointment</a>
+                    </li>
+
+                </ul>
+            </div>
+            </ul>
+        </div>
+
+
+        <!-- 3 -->
+        <div class="p-1">
+            <div class="border yonboshhhhhh">
+
+                <ul class="py-3 text-center  bosilishhh flex items-center justify-between px-2">
+                    <li class="bosilishhh">
+                        <h2 class="font-bold text-lg   hoverrrrr text-white">Mehr</h2>
+                    </li>
+
+                    <svg class="rotateeeee" width="50" height="10" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.92723 6.1544C4.9731 6.20992 5.03447 6.25531 5.10607 6.28667C5.17767 6.31803 5.25734 6.33441 5.33823 6.33441C5.41911 6.33441 5.49878 6.31803 5.57038 6.28667C5.64198 6.25531 5.70336 6.20992 5.74923 6.1544L10.2492 0.737735C10.3013 0.675258 10.3319 0.602081 10.3375 0.526154C10.3432 0.450226 10.3238 0.374452 10.2815 0.307065C10.2391 0.239678 10.1754 0.183255 10.0972 0.143925C10.0191 0.104596 9.92952 0.0838651 9.83823 0.0839849H0.838225C0.747147 0.0842984 0.657894 0.105296 0.580066 0.144719C0.502237 0.184143 0.438777 0.240501 0.39651 0.307732C0.354243 0.374963 0.334768 0.450524 0.34018 0.526289C0.345592 0.602054 0.375686 0.675157 0.427225 0.737735L4.92723 6.1544Z"
+                            fill="white" />
+                    </svg>
+
+                </ul>
+
+                <ul class="qaytarilishhh w-full">
+                    <!-- 1 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.about us.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">about
+                            us</a>
+                    </li>
+                    <!-- 2 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.career.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">career</a>
+                    </li>
+                    <!-- 3 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.cardetails.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">career
+                            detail</a>
+                    </li>
+                    <!-- 4 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.contactus.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">contact us</a>
+                    </li>
+                    <!-- 5 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.sell a car.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">sell a
+                            car</a>
+                    </li>
+                    <!-- 6 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.findadealer.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">find a
+                            dealer</a>
+                    </li>
+                    <!-- 7 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.dealership specific.html"
+                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">dealership
+                            specific</a>
+                    </li>
+                    <!-- 8 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.bookaappointment.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">book a
+                            appointment</a>
+                    </li>
+                    <!-- 9 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="index.car service.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">car
+                            service</a>
+                    </li>
+                    <!-- 10 -->
+                    <li class="w-full text-center border-t py-3">
+                        <a href="./index.cardetails.html" class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">car
+                            details</a>
+                    </li>
+
+                </ul>
+            </div>
+            </ul>
+        </div>
+    </div>
+
+
+</section>
+<!-- HAMBURGER -->
 
 
 
