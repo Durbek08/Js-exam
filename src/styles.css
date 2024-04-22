@@ -36,7 +36,7 @@
 
 .qaytarilish {
     display: none;
-   
+    transition: all 0.3s;
 }
 
 .active {
@@ -59,6 +59,13 @@
 }
 
 
+.bunga{
+    transform: translateY(1.50px);
+}
+.qalin{
+    transform: translateY(1.50px);
+    border-bottom: 2px solid #EE6058;
+}
 
 /* 2 */
 .bosilishh:hover .hoverrrr {
@@ -67,7 +74,7 @@
 
 .qaytarilishh {
     display: none;
-
+    transition: all 0.3s;
 }
 
 .activee {
@@ -90,12 +97,18 @@
 
 }
 
+.qaytarilish {
+    height: 80vh;
+}
+
 
 /* 3 */
 .bosilishhh:hover .hoverrrrr {
     color: #FF6060;
     transition: all 0.2s;
 }
+
+.bosilish {}
 
 .qaytarilishhh {
     display: none;
@@ -126,7 +139,9 @@
 
 
 .hamburgersection {
-    display: none;
+    left: -100%;
+    transition: all 0.3s;
+
 }
 
 .hamburger {}
@@ -149,15 +164,116 @@
 
 .bolmoq {
     display: block;
+    left: 0;
+    transition: all 0.3s;
 }
 
 
-.nik {}
+.nik {
+    transform: translateY(2px);
+
+}
 
 .nik.nikkita {
-    border-bottom: 2px solid #FF5454;
+    border-bottom: 3px solid #FF5454;
+    transform: translateY(2px);
 }
 
 .bbss {
     box-sizing: border-box;
+}
+
+
+
+
+
+
+.inputs {
+    display: none;
+}
+
+.ssadfe {
+    display: block;
+}
+
+.buttons:active {
+    background: linear-gradient(180deg, #AB2525 0%, #EE6058 97.92%);
+    box-shadow: 5px 8px 5px -3px #00000040 inset;
+    box-shadow: -3px -8px 7px -3px #00000099 inset;
+    transition: all 0.3s;
+}
+
+.buttons {
+    background: linear-gradient(180deg, #EE6058 0%, #AB2525 100%);
+    box-shadow: 0px -8px 10px -3px #00000040 inset;
+    transition: all 0.3s;
+}
+
+.buttons:hover {
+    box-shadow: 5px 8px 8px -3px #00000040 inset;
+    transition: all 0.3s;
+}
+
+
+
+.buttons__gray:active {
+    background: linear-gradient(180deg, #C4C4C4 0%, #F4F4F4 97.92%);
+    box-shadow: 5px 8px 5px -3px #00000040 inset;
+    box-shadow: -3px -8px 7px -3px #00000099 inset;
+    transition: all 0.3s;
+}
+
+.buttons__gray {
+    background: linear-gradient(180deg, #F4F4F4 0%, #C4C4C4 100%);
+
+    transition: all 0.3s;
+}
+
+.buttons__gray:hover {
+    box-shadow: 5px 8px 8px -3px #00000040 inset;
+    transition: all 0.3s;
+}
+
+
+.buttons__blue:active {
+    background: linear-gradient(180deg, #55b1d2 0%,  #0D84B1 97.92%);
+    box-shadow: 5px 8px 5px -3px #00000040 inset;
+    box-shadow: -3px -8px 7px -3px #00000099 inset;
+    transition: all 0.3s;
+}
+
+.buttons__blue {
+    background: linear-gradient(180deg, #3392b5 0%, #0D84B1 100%);
+
+    transition: all 0.3s;
+}
+
+.buttons__blue:hover {
+    box-shadow: 5px 8px 8px -3px #00000040 inset;
+    transition: all 0.3s;
+}
+
+
+.gssa{
+    display: none;
+}
+.gssas{
+    display: flex;
+}
+
+.siljish {
+    transition: all 0.3s;
+}
+.svgs{
+    transition: all 0.3s;
+}
+.siljish:hover .svgs{
+    transform: translateX(10px);
+
+}
+
+
+.inputc{
+    border: none;
+    outline: none;
 }
