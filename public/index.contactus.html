@@ -193,7 +193,7 @@
                                         </h3>
                                         <ul class="">
                                             <li class=""><a href="./index.contactus.html"
-                                                    class="font-normal text-sm text-[#5E5E5E] mb-2 hover:text-[#FF6060] transition-all">contact
+                                                    class="font-normal text-sm text-[#FF6060] mb-2 hover:text-[#FF6060] transition-all">contact
                                                     us</a>
                                             </li>
                                             <li class=""><a href="./index.sell a car.html"
@@ -443,7 +443,7 @@
                     <!-- 4 -->
                     <li class="w-full text-center border-t py-3">
                         <a href="./index.contactus.html"
-                            class=" font-normal text-sm hover:text-[#FF6060] text-white  text-center">contact us</a>
+                            class=" font-normal text-sm hover:text-[#FF6060] text-[#FF6060]  text-center">contact us</a>
                     </li>
                     <!-- 5 -->
                     <li class="w-full text-center border-t py-3">
@@ -501,48 +501,61 @@
                 <div class="max-w-[1266px] mb-11 mt-20 mx-auto gap-8 xl:flex flex-wrap lg:flex-nowrap">
                     <ul class="flex flex-col gap-8 flex-wrap mb-3 lg:mb-0">
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">Vor-und Nachname</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="text">
-                        </li>
+                           <label>
+                            <span id="bir" class="block text-[16px] mb-4 font-normal">Vor-und Nachname</span>
+                            <input id="bir" required class="pl-2 w-full h-[52px] border solid 1px rounded-md" type="text">
+                        
+                           </label></li>
     
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">Telefon</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="tel">
-                        </li>
+                          <label>
+                            <span id="ikki" class="block text-[16px] mb-4 font-normal">Telefon</span>
+                            <input id="ikki" required class="pl-2 w-full h-[52px] border solid 1px rounded-md" type="tel">
+                        
+                          </label></li>
                     </ul>
     
                     <ul class="flex flex-col gap-8 flex-wrap mb-3 lg:mb-0">
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">Firma</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="text">
-                        </li>
+                           <label>
+                            <span id="uch" class="block text-[16px] mb-4 font-normal">Firma</span>
+                            <input id="uch" required class="pl-2 w-full h-[52px] border solid 1px rounded-md" type="text">
+                       
+                           </label> </li>
     
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">Adresse</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="text">
-                        </li>
+                           <label>
+                            <span id="tort" class=" text-[16px] block mb-4 font-normal">Adresse</span>
+                            <input id="tort" required class="pl-2 w-full h-[52px] border solid 1px rounded-md" type="text">
+                        
+                           </label></li>
                     </ul>
     
                     <ul class="flex flex-col gap-8 flex-wrap mb-3 lg:mb-0">
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">E-Mail-Adresse</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="email">
-                        </li>
+                           <label>
+                            <span id="besht" class="block select-none text-[16px] mb-4 font-normal">E-Mail-Adresse</span>
+                            <input id="besht" required class="pl-2 w-full h-[52px] border solid 1px rounded-md" type="email">
+                        
+                           </label></li>
     
                         <li class="w-full xl:w-[400px]">
-                            <p class="text-[16px] mb-4 font-normal">Standort wählen</p>
-                            <input required class="w-full h-[52px] border solid 1px rounded-md" type="text">
-
+                           <label>
+                            <span id="olti" class="text-[16px] block mb-4 font-normal">Standort wählen</span>
+                            <input id="olti" required class=" pl-2 w-full h-[52px] border solid 1px rounded-md" type="text">
+                           </label>
                         </li>
                     </ul>
                 </div>
     
                 <div class="max-w-[1266px] mx-auto">
                     <div class="flex items-center gap-3 mb-8">
-                        <input required type="checkbox">
+                        <label class="flex items-center gap-3" for="salom">
+                            <input id="salom" required type="checkbox">
                         <p class="font-normal text-base text-[#212121]">Auto Schrader Newsletter abonnieren und regelmäßig
                             News aus dem Autohaus erhalten.
                         </p>
+                        </label>
                     </div>
                     <div class="">
                         <p class="font-normal text-base text-[#000000] mb-8">Hier finden Sie unsere Datenschutzerklärung von
@@ -663,9 +676,9 @@
     </div>
 
     <div class="sm:flex justify-between max-w-[1434px] mx-auto px-5">
-        <a href="#"
-            class="text-[#212121]  font-medium text-[16px] hover:opacity-80 transition-all ml-7 text-center">© 2023
-            Auto Schrader</a>
+        <span href="#"
+            class="text-[#212121]  font-medium text-[16px]  ml-7 text-center">© 2023
+            Auto Schrader</span>
         <a href="#"
             class="text-[#212121] font-medium text-[16px] hover:opacity-80 transition-all text-center">Advanced
             Automotive Dealer Websites

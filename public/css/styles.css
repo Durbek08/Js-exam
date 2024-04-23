@@ -1188,6 +1188,11 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -2164,6 +2169,10 @@ video {
 .text-\[\#FF4545\] {
   --tw-text-opacity: 1;
   color: rgb(255 69 69 / var(--tw-text-opacity));
+}
+.text-\[\#FF6060\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 96 96 / var(--tw-text-opacity));
 }
 .text-\[\#FF6262\] {
   --tw-text-opacity: 1;
@@ -3192,6 +3201,10 @@ video {
 
   .lg\:max-w-\[470px\] {
     max-width: 470px;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
