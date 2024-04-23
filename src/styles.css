@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
 .lii:hover .divcha {
     display: block;
 }
@@ -32,11 +37,17 @@
 
 .bosilish:hover .hoverrr {
     color: #FF6060;
+    transition: all .3s;
 }
 
 .qaytarilish {
+<<<<<<< HEAD
+    display: none;  
+   
+=======
     display: none;
     transition: all 0.3s;
+>>>>>>> 004c467696ea27c95fe017c673cffe1c25b74afb
 }
 
 .active {

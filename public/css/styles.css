@@ -768,6 +768,12 @@ video {
 .mt-\[27px\] {
   margin-top: 27px;
 }
+<<<<<<< HEAD
+.mt-\[88px\] {
+  margin-top: 88px;
+}
+=======
+>>>>>>> 004c467696ea27c95fe017c673cffe1c25b74afb
 .block {
   display: block;
 }
@@ -1758,10 +1764,13 @@ video {
   padding-top: 26px;
   padding-bottom: 26px;
 }
+<<<<<<< HEAD
+=======
 .py-\[90px\] {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+>>>>>>> 004c467696ea27c95fe017c673cffe1c25b74afb
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2192,6 +2201,11 @@ video {
   transition-duration: 150ms;
 }
 
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
 .lii:hover .divcha {
     display: block;
 }
@@ -2222,6 +2236,7 @@ video {
 
 .bosilish:hover .hoverrr {
     color: #FF6060;
+    transition: all .3s;
 }
 
 .qaytarilish {
@@ -2719,10 +2734,13 @@ video {
     width: 487px;
   }
 
+<<<<<<< HEAD
+=======
   .sm\:w-full {
     width: 100%;
   }
 
+>>>>>>> 004c467696ea27c95fe017c673cffe1c25b74afb
   .sm\:max-w-\[145px\] {
     max-width: 145px;
   }
