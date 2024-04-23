@@ -59,6 +59,7 @@ hamburgerex.addEventListener('click', function () {
 
 
 let nik = document.querySelectorAll('.nik')
+let gssa = document.querySelectorAll('.gssa')
 
 nik.forEach(function (item, index) {
     item.addEventListener('click', function () {
@@ -66,6 +67,43 @@ nik.forEach(function (item, index) {
             element.classList.remove('nikkita')
         })
         item.classList.add('nikkita')
+    })
+})
+
+
+let section2Link = document.querySelectorAll('.nik')
+let sectionnh = document.querySelectorAll(".gssa")
+section2Link.forEach(function(item , index){
+item.addEventListener('click' , function(){
+    section2Link.forEach(function(element){
+        element.classList.remove('nikkita')
+    })
+    item.classList.add("nikkita")
+    sectionnh.forEach(function(element){
+        element.classList.remove('gssas')
+    })
+    sectionnh[index].classList.add('gssas')
+})
+})
+
+
+
+
+let search = document.querySelector('.search')
+let seainputsrch = document.querySelector('.inputs')
+
+search.addEventListener('click', function () {
+    seainputsrch.classList.add('ssadfe')
+})
+
+
+let bunga = document.querySelectorAll('.bunga')
+bunga.forEach(function (item, index) {
+    item.addEventListener('click', function () {
+        bunga.forEach(function (bos) {
+            bos.classList.remove('qalin')
+        })
+        item.classList.add('qalin')
     })
 })
 
