@@ -41,13 +41,8 @@ body{
 }
 
 .qaytarilish {
-<<<<<<< HEAD
-    display: none;  
-   
-=======
     display: none;
     transition: all 0.3s;
->>>>>>> 004c467696ea27c95fe017c673cffe1c25b74afb
 }
 
 .active {

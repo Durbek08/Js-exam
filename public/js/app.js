@@ -109,3 +109,18 @@ bunga.forEach(function (item, index) {
 
 
 
+let imgMini = document.querySelectorAll('.small-img1')
+let Bigimg = document.querySelector('.img-katta')
+
+imgMini.forEach((item , index)=>{
+    item.addEventListener('click' , function(){
+        imgMini.forEach(function (item){
+            item.classList.remove('active')
+        })
+        Bigimg.src = item.src;
+        item.classList.add('active')
+
+        
+        
+    })
+})
