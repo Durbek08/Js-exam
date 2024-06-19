@@ -124,3 +124,12 @@ imgMini.forEach((item , index)=>{
         
     })
 })
+
+
+
+let  bgas = document.querySelector('.loader')
+window.addEventListener('DOMContentLoaded', function () {
+  setTimeout(function () {
+    bgas.style.display = "none"
+  }, 2000)
+})
